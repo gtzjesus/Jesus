@@ -8,6 +8,7 @@
   padding: $basic-padding-overall;
 }
 .content {
+  font-family: 'Rampart One', cursive;
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
@@ -21,6 +22,7 @@
   font-size: $font-size-lg;
 }
 .description {
+  font-family: 'Bad Script', cursive;
   text-transform: uppercase;
   font-size: $font-size-sm;
   line-height: $line-height -2.5vh;

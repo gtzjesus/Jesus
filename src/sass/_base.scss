@@ -4,9 +4,9 @@ $line-height: 5vh;
 $basic-size-vh: 10vh;
 $basic-margins-top: 1.5vh 0;
 $basic-padding-sides: 0 0.95vh;
-$basic-padding-overall: 2vh;
+$basic-padding-overall: 3vh;
 
-$font-size-xs: 1.75vh;
+$font-size-xs: 1.65vh;
 $font-size-sm: 2vh;
 $font-size-m: 5vh;
 $font-size-lg: 8.5vh;
@@ -17,7 +17,6 @@ $color-font-alternative: #f7f0d4;
 $color-background: #131313;
 
 * {
-  font-family: 'Migra', sans-serif;
   font-stretch: expanded;
   list-style: none;
   text-decoration: none;

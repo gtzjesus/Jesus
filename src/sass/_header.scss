@@ -12,7 +12,7 @@
 }
 .nav {
   font-size: $font-size-xs;
-  letter-spacing: $letter-spacing-sm;
+  letter-spacing: $letter-spacing-sm + 0.15vh;
 }
 .nav__list {
   display: flex;

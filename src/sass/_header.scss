@@ -1,5 +1,5 @@
 .header {
-  font-family: 'Rampart One', cursive;
+  font-family: 'League Gothic', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,6 +8,7 @@
   border-bottom: 0.5px solid $color-font;
   padding: $basic-padding-overall;
   color: $color-font;
+  margin: $basic-padding-sides;
 }
 .nav {
   font-size: $font-size-xs;
@@ -25,7 +26,6 @@
   }
   &.special__logo {
     text-transform: uppercase;
-
     color: $color-font-alternative;
   }
 }

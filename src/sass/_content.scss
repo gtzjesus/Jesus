@@ -17,23 +17,26 @@
 .tiny__title {
   color: $color-font-alternative;
   font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
 }
 .title {
   font-size: $font-size-lg;
+  letter-spacing: $letter-spacing-lg;
 }
 .description {
   font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
   font-size: $font-size-m;
   line-height: $line-height-description;
+  letter-spacing: $letter-spacing-sm;
 }
-.technologies {
-  display: flex;
-  flex-direction: row;
-}
-.tech {
-  padding: $basic-padding-overall -1vh;
+// .technologies {
+//   display: flex;
+//   flex-direction: row;
+// }
+// .tech {
+//   padding: $basic-padding-overall -1vh;
 
-  overflow: hidden;
-  scale: 0.75;
-}
+//   overflow: hidden;
+//   scale: 0.75;
+// }

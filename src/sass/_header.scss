@@ -12,6 +12,7 @@
 }
 .nav {
   font-size: $font-size-xs;
+  letter-spacing: $letter-spacing-sm;
 }
 .nav__list {
   display: flex;
@@ -33,7 +34,7 @@
 .background__section {
   background: $color-background;
   min-height: calc($calc-height-screen);
-  background: url(background.webp) no-repeat center center fixed;
+  background: url(background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

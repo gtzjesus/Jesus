@@ -11,6 +11,7 @@ class ContentView {
     <span class="tiny__title">creative</span>
     <span class="title">designer<span class="tiny__title">&</span></span>
     <span class="title">developer</span>
+    
     `;
   }
 }

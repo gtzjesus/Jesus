@@ -9,6 +9,10 @@
   padding: $basic-padding-overall + 0.5vh;
 }
 .about__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   font-family: 'League Gothic', sans-serif;
   text-transform: uppercase;
   font-size: $font-size-subtitle;
@@ -35,4 +39,47 @@
   line-height: $line-height-description;
   letter-spacing: $letter-spacing-sm;
   padding: $basic-padding-overall;
+}
+
+@media (min-width: $bp-medium) {
+  .about {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: $basic-padding-overall + 0.5vh;
+  }
+  .about__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'League Gothic', sans-serif;
+    text-transform: uppercase;
+    font-size: $font-size-subtitle + 2.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+  }
+  .name,
+  .lastname {
+    color: $color-font-alternative;
+  }
+  .lastname {
+    font-size: $font-size-sm + 0.5vh;
+    letter-spacing: $letter-spacing-sm;
+  }
+  .person {
+    padding: $basic-padding-overall + 0.5vh;
+  }
+  .person img {
+    width: 100%;
+  }
+  .about__description {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 75vh;
+    font-size: $font-size-m + 4vh;
+    line-height: $line-height-description - 10.5%;
+    letter-spacing: $letter-spacing-sm -0.5vh;
+    padding: $basic-padding-overall + 5vh;
+  }
 }

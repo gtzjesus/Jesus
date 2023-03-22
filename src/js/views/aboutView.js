@@ -13,10 +13,11 @@ class AboutView {
             <span>hello. i am <span class="name">jesus</span><span class="lastname">gutierrez</span></span>
             
 
-        </div>
+     
         <div class='person'> 
         <img src="${person}" />
     </div> 
+    </div>
         <div class="about__description">
             <span>
             ___________i've been using this passion throughout the years, and in the process, I have aquired multiple skill sets

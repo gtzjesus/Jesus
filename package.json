@@ -1,0 +1,19 @@
+{
+  "name": "jesus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Jesus Gutierrez",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "core-js": "^3.29.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

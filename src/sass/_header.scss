@@ -40,3 +40,14 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media (min-width: $bp-small) {
+  .nav {
+    font-size: $font-size-xs + 0.75vh;
+  }
+  .nav__item {
+    &.special {
+      display: block;
+    }
+  }
+}

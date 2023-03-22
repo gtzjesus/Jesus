@@ -5,7 +5,6 @@
   align-items: left;
   min-height: calc($calc-height-screen);
   color: $color-font;
-  padding: $basic-padding-overall;
 }
 .content {
   font-family: 'League Gothic', sans-serif;
@@ -13,6 +12,7 @@
   flex-direction: column;
   text-transform: uppercase;
   line-height: $line-height;
+  padding: $basic-padding-overall;
 }
 .tiny__title {
   color: $color-font-alternative;
@@ -29,7 +29,69 @@
   font-size: $font-size-m;
   line-height: $line-height-description;
   letter-spacing: $letter-spacing-sm;
+  padding: $basic-padding-overall;
 }
+
+@media (min-width: $bp-small) {
+  .content__container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none;
+  }
+  .content {
+    line-height: $line-height + 2.5vh;
+  }
+  .tiny__title {
+    position: relative;
+    top: 0;
+    font-size: $font-size-sm + 3.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+  }
+  .title {
+    font-size: $font-size-lg + 3.5vh;
+    letter-spacing: $letter-spacing-lg - 0.25vh;
+  }
+  .description {
+    position: absolute;
+    bottom: 0;
+    font-size: $font-size-m + 2.5vh;
+    line-height: $line-height-description - 10%;
+    letter-spacing: $letter-spacing-sm -0.25vh;
+  }
+}
+
+@media (min-width: $bp-medium) {
+  .content__container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none;
+  }
+  .content {
+    position: relative;
+    top: 0;
+    line-height: $line-height + 5.5vh;
+    padding: $basic-padding-overall + 5vh;
+  }
+  .tiny__title {
+    font-size: $font-size-sm + 7.5vh;
+    letter-spacing: $letter-spacing-sm - 0.5vh;
+  }
+  .title {
+    font-size: $font-size-lg + 7.5vh;
+    letter-spacing: $letter-spacing-lg - 0.5vh;
+  }
+  .description {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 75vh;
+    font-size: $font-size-m + 4vh;
+    line-height: $line-height-description - 10.5%;
+    letter-spacing: $letter-spacing-sm -0.5vh;
+    padding: $basic-padding-overall + 5vh;
+  }
+}
+
 // .technologies {
 //   display: flex;
 //   flex-direction: row;

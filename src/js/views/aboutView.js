@@ -14,15 +14,16 @@ class AboutView {
             
 
         </div>
+        <div class='person'> 
+        <img src="${person}" />
+    </div> 
         <div class="about__description">
             <span>
             ___________i've been using this passion throughout the years, and in the process, I have aquired multiple skill sets
             that have allowed me to master a few modern programming languages and technologies.
             </span>
         </div>
-        <div class='person'> 
-            <img src="${person}" />
-        </div> 
+
     `;
   }
 }

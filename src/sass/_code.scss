@@ -1,11 +1,11 @@
 .code {
-  height: 100%;
+  display: flex;
+  align-items: center;
+  height: $calc-height-screen;
   background: $color-background;
   color: $color-font;
   display: flex;
   padding: $basic-padding-overall + 0.5vh;
-}
-.code__container {
 }
 .tech__container {
   display: flex;
@@ -21,11 +21,12 @@
   letter-spacing: $letter-spacing-sm - 0.25vh;
 }
 .tech__subtitle {
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
   font-size: $font-size-m - 0.55vh;
   color: $color-font-alternative;
   letter-spacing: $letter-spacing-sm;
 }
-
 .technologies {
   display: flex;
   flex-direction: column;
@@ -37,9 +38,43 @@
 .icon {
   scale: 1.05;
 }
-.arrow {
-  scale: 0.5;
-}
 
-.code__spectrum {
+@media (min-width: $bp-small) {
+  .code {
+    height: $calc-height-screen;
+
+    background: $color-background;
+    color: $color-font;
+    display: flex;
+    justify-content: center;
+    padding: $basic-padding-overall + 0.5vh;
+  }
+  .code__container {
+    display: flex;
+  }
+  .tech__container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: $basic-padding-overall - 2.5vh;
+    grid-gap: $grid-gap;
+    padding: $basic-padding-techs;
+  }
+  .code__introduction {
+    font-family: 'League Gothic', sans-serif;
+    text-transform: uppercase;
+    font-size: $font-size-subtitle + 3.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+  }
+  .tech__subtitle {
+    font-size: $font-size-m + 1vh;
+    color: $color-font-alternative;
+    letter-spacing: $letter-spacing-sm -0.25vh;
+  }
+
+  .icon {
+    scale: 1.25;
+  }
 }

@@ -17,9 +17,10 @@ class CodeView {
   _generateMarkup() {
     return `
         <div class ="code__container">
-        <div class="code__introduction">
-            <span >my build process<span class="lastname">usually goes as</span></span>
-                <div class="technologies ">
+            <div class="code__introduction">
+                <span >my build process<span class="lastname">usually goes as</span></span>
+            </div>
+                <div class="technologies">
                     <div class="tech">
                         <a class="tech__container" href="https://www.figma.com/" target="_blank">
                             <img class="icon" src="${figma}" title="Visual Studio Code" />
@@ -58,8 +59,7 @@ class CodeView {
                         </a>
                 </div>
                 </div>
-        </div>
-        </div>
+                        </div>
     `;
   }
 }

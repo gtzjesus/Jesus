@@ -10,8 +10,12 @@ $basic-margins-top: 1.5vh 0;
 $basic-padding-sides: 0 0.95vh;
 $basic-padding-overall: 3vh;
 $basic-padding-techs: 2.5vh;
+$basic-padding-image-small-screens: 5%;
+$basic-padding-image-medium-screens: 15%;
 
-$padding-bottom-space: 25%;
+$padding-percentage: 5%;
+
+$padding-bottom-space: 15%;
 
 $letter-spacing-sm: -0.15vh;
 $letter-spacing-lg: -0.75vh;
@@ -32,6 +36,7 @@ $color-spectrum: #b5d5f1;
 $color-mapper: #db2626;
 
 $grid-gap: 2.5vh;
+$grid-gap-big: 30%;
 
 * {
   font-stretch: expanded;

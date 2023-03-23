@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   padding: $basic-padding-overall - 2.5vh;
+  grid-gap: $grid-gap;
 }
 .code__introduction {
   font-family: 'League Gothic', sans-serif;
@@ -24,8 +25,6 @@
   color: $color-font-alternative;
   letter-spacing: $letter-spacing-sm;
 }
-.code__images {
-}
 
 .technologies {
   display: flex;
@@ -33,9 +32,11 @@
 }
 .tech {
   padding: $basic-padding-overall -10vh;
-
   overflow: hidden;
 }
 .tech img {
-  scale: 0.85;
+  scale: 1.05;
+}
+
+.code__images {
 }

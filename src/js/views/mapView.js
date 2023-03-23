@@ -21,9 +21,9 @@ class MapView {
                 </div>
                 <div  class="map__description">
                 <span>
-                __________a fitness application that allows users to log
-                multiple sets of cardiovascular excerices to keep
-                track of thier fitness journey.
+                __________a fitness application that <span class="lastname__map">allows users </span>
+                to log multiple sets of cardiovascular excerices to keep
+                track of thier fitness journey. 
                 </span>
                 </div>
                 <div class="map__link">

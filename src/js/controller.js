@@ -2,6 +2,7 @@ import aboutView from './views/aboutView';
 import codeView from './views/codeView';
 import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
+import githubView from './views/githubView';
 import mapView from './views/mapView';
 import spectrumView from './views/spectrumView';
 
@@ -49,5 +50,6 @@ const init = function () {
   codeView.render();
   spectrumView.render();
   mapView.render();
+  githubView.render();
 };
 init();

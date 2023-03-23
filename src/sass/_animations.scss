@@ -1,0 +1,95 @@
+/**
+* ANIMATION HANDLING: SPECIFICALLY FOR LANDING
+ */
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+.hidden__delay {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 4s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.tech {
+  transition: 0.95s ease all;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tech:nth-child(2) {
+  transition-delay: 200ms;
+}
+.tech:nth-child(3) {
+  transition-delay: 400ms;
+}
+.tech:nth-child(4) {
+  transition-delay: 600ms;
+}
+.tech:nth-child(5) {
+  transition-delay: 800ms;
+}
+.tech:nth-child(6) {
+  transition-delay: 1000ms;
+}
+.tech:nth-child(7) {
+  transition-delay: 1200ms;
+}
+.tech:nth-child(8) {
+  transition-delay: 1400ms;
+}
+.tech:nth-child(9) {
+  transition-delay: 1600ms;
+}
+.tech:nth-child(10) {
+  transition-delay: 1800ms;
+}
+.tech:nth-child(11) {
+  transition-delay: 2000ms;
+}
+.tech:nth-child(12) {
+  transition-delay: 2200ms;
+}
+.tech:nth-child(13) {
+  transition-delay: 2400ms;
+}
+.tech:nth-child(14) {
+  transition-delay: 2600ms;
+}
+.tech:nth-child(15) {
+  transition-delay: 2800ms;
+}
+
+/**
+  * LOADING PAGE ANIMATION SPINNER
+   */
+#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

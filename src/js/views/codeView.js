@@ -22,14 +22,14 @@ class CodeView {
                     <div class="tech">
                         <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
                             <img src="${figma}" title="Visual Studio Code" />
-                            <span class="tech__subtitle">ui tool to design</span>
+                            <span class="tech__subtitle">ui design</span>
                         </a>
                     </div>
                     <span></span>
                     <div class="tech">
                     <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
                         <img src="${vs}" title="Visual Studio Code" />
-                        <span class="tech__subtitle">editor to code</span>
+                        <span class="tech__subtitle">code editor</span>
                     </a>
                     </div>
                     <div class="tech">

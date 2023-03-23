@@ -56,3 +56,9 @@ $grid-gap: 2.5vh;
 .lastname__map {
   color: $color-mapper;
 }
+
+@media screen and (orientation: landscape) {
+  .header {
+    display: none;
+  }
+}

@@ -1,11 +1,14 @@
 .code {
   display: flex;
+  min-height: calc($calc-height-screen);
   align-items: center;
-  height: $calc-height-screen;
   background: $color-background;
   color: $color-font;
   display: flex;
   padding: $basic-padding-overall + 0.5vh;
+}
+.code__container {
+  height: 100%;
 }
 .tech__container {
   display: flex;
@@ -65,7 +68,8 @@
   .code__introduction {
     font-family: 'League Gothic', sans-serif;
     text-transform: uppercase;
-    font-size: $font-size-subtitle + 3.5vh;
+    font-size: $font-size-subtitle + 2.5vh;
+
     letter-spacing: $letter-spacing-sm - 0.25vh;
   }
   .tech__subtitle {

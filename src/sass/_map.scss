@@ -50,14 +50,20 @@
 .map__link {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  grid-gap: 1vh;
+}
+.map__link__cont {
   font-family: 'League Gothic', sans-serif;
   text-transform: uppercase;
   font-size: $font-size-sm;
   letter-spacing: $letter-spacing-sm;
-
   color: $color-mapper;
+  border: 0.5vh solid $color-mapper;
+  padding: $basic-padding-overall - 0.25vh;
+}
+.map__link__a {
+  text-align: center;
 }
 .map__link__flex {
   display: flex;

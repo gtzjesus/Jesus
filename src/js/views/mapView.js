@@ -20,19 +20,24 @@ class MapView {
                     <img src="${map}" />
                 </div>
                 <div  class="map__description">
-                <span>
-                __________a fitness application that <span class="lastname__map">allows users </span>
-                to log multiple sets of cardiovascular excerices to keep
-                track of thier fitness journey. 
-                </span>
+                  <span>
+                    __________a fitness application that <span class="lastname__map">allows users </span>
+                    to log multiple sets of cardiovascular excerices to keep
+                    track of thier fitness journey. 
+                  </span>
                 </div>
+
                 <div class="map__link">
-                    <a href="https://mapassist.netlify.app" target="_blank">
-                    <span class="map__link__flex">visit site <img src="${host}" title="Visit Site" /></span>
-                    </a>
-                    <a href="https://github.com/gtzjesus/mapAssist" target="_blank">
+                  <a class="map__link__a">
+                    <div class="map__link__cont">
+                      <span class="map__link__flex">visit site <img src="${host}" title="Visit Site" /></span>
+                    </div>
+                  </a>
+                <a class="map__link__a">
+                  <div class="map__link__cont">
                     <span class="map__link__flex">visit git <img src="${gh}" title="Visit Repo" /></span>
-                    </a>
+                  </div>
+                </a>
                 </div>
             </div>
         `;

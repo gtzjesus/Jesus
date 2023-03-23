@@ -8,7 +8,7 @@ class DescriptionView {
 
   _generateMarkup() {
     return `
-    <span class="paragraph">___________from the early stages of designing prototypes, to fully implementing applications, i've found that creating digital experiences and products is<span class="name"> my passion.</span> </span>
+    <span class="paragraph">___________from the early stages of designing prototypes, to fully implementing applications, i've found that <span class="name"> my passion</span> relies in creating digital experiences.</span>
     `;
   }
 }

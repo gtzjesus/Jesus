@@ -1,5 +1,5 @@
 .code {
-  height: $calc-height-screen;
+  height: 100%;
   background: $color-background;
   color: $color-font;
 
@@ -35,9 +35,12 @@
   padding: $basic-padding-overall -10vh;
   overflow: hidden;
 }
-.tech img {
+.icon {
   scale: 1.05;
 }
+.arrow {
+  scale: 0.5;
+}
 
-.code__images {
+.code__spectrum {
 }

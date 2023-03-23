@@ -17,7 +17,7 @@ class GithubView {
                     <span><span class="tap">tap here</span> to visit all my code repos</span>
                 </div>
             </a>
-        </div>
+            </div>
     `;
   }
 }

@@ -46,18 +46,23 @@
   padding: $basic-padding-overall;
   color: $color-font;
 }
-
 .spectrum__link {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  grid-gap: 1vh;
+}
+.spectrum__link__cont {
   font-family: 'League Gothic', sans-serif;
   text-transform: uppercase;
   font-size: $font-size-sm;
   letter-spacing: $letter-spacing-sm;
-
   color: $color-spectrum;
+  border: 0.5vh solid $color-spectrum;
+  padding: $basic-padding-overall - 0.25vh;
+}
+.spectrum__link__a {
+  text-align: center;
 }
 .spectrum__link__flex {
   display: flex;

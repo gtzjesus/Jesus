@@ -2,6 +2,7 @@ import aboutView from './views/aboutView';
 import codeView from './views/codeView';
 import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
+import mapView from './views/mapView';
 import spectrumView from './views/spectrumView';
 
 //// CONSTANTS THAT WE WILL NEED TO ACCESS FOR OUT APPLICATION
@@ -47,5 +48,6 @@ const init = function () {
   aboutView.render();
   codeView.render();
   spectrumView.render();
+  mapView.render();
 };
 init();

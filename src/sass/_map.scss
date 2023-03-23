@@ -1,4 +1,4 @@
-.spectrum {
+.map {
   height: $calc-height-screen;
   background-color: $color-background;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   padding: $basic-padding-overall + 0.5vh;
 }
-.spectrum__intro {
+.map__intro {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -18,7 +18,7 @@
   letter-spacing: $letter-spacing-sm - 0.25vh;
   color: $color-font;
 }
-.spectrum__subtitle {
+.map__subtitle {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -27,17 +27,17 @@
   text-transform: uppercase;
   font-size: $font-size-sm + 2vh;
   letter-spacing: $letter-spacing-sm;
-  color: $color-spectrum;
-  border-bottom: 1px solid $color-spectrum;
+  color: $color-mapper;
+  border-bottom: 1px solid $color-mapper;
 }
 
-.spectrum__display {
+.map__display {
   padding: $basic-padding-overall + 0.5vh;
 }
-.spectrum__display img {
+.map__display img {
   width: 100%;
 }
-.spectrum__description {
+.map__description {
   font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
   font-size: $font-size-m;
@@ -47,7 +47,7 @@
   color: $color-font;
 }
 
-.spectrum__link {
+.map__link {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -57,14 +57,14 @@
   font-size: $font-size-sm;
   letter-spacing: $letter-spacing-sm;
 
-  color: $color-spectrum;
+  color: $color-mapper;
 }
-.spectrum__link__flex {
+.map__link__flex {
   display: flex;
   align-items: center;
   grid-gap: $grid-gap - 1vh;
 }
-.spectrum__link img {
+.map__link img {
   border-radius: 50%;
   height: $font-size-m;
   width: $font-size-m;

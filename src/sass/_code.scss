@@ -2,10 +2,16 @@
   height: $calc-height-screen;
   background: $color-background;
   color: $color-font;
+
   display: flex;
   padding: $basic-padding-overall + 0.5vh;
 }
 .code__container {
+}
+.tech__container {
+  display: flex;
+  align-items: center;
+  padding: $basic-padding-overall - 2.5vh;
 }
 .code__introduction {
   font-family: 'League Gothic', sans-serif;
@@ -13,16 +19,23 @@
   font-size: $font-size-subtitle;
   letter-spacing: $letter-spacing-sm - 0.25vh;
 }
+.tech__subtitle {
+  font-size: $font-size-m - 0.55vh;
+  color: $color-font-alternative;
+  letter-spacing: $letter-spacing-sm;
+}
 .code__images {
 }
 
 .technologies {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .tech {
-  padding: $basic-padding-overall -1vh;
+  padding: $basic-padding-overall -10vh;
 
   overflow: hidden;
+}
+.tech img {
   scale: 0.85;
 }

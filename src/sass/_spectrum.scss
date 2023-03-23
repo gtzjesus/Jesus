@@ -1,0 +1,71 @@
+.spectrum {
+  height: $calc-height-screen;
+  background-color: $color-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: $basic-padding-overall + 0.5vh;
+}
+.spectrum__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
+  font-size: $font-size-subtitle;
+  letter-spacing: $letter-spacing-sm - 0.25vh;
+  color: $color-font;
+}
+.spectrum__subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
+  font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-spectrum;
+  border-bottom: 1px solid $color-spectrum;
+}
+
+.spectrum__display {
+  padding: $basic-padding-overall + 0.5vh;
+}
+.spectrum__display img {
+  width: 100%;
+}
+.spectrum__description {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: $font-size-m;
+  line-height: $line-height-description;
+  letter-spacing: $letter-spacing-sm;
+  padding: $basic-padding-overall;
+  color: $color-font;
+}
+
+.spectrum__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
+  font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
+
+  color: $color-spectrum;
+}
+.spectrum__link__flex {
+  display: flex;
+  align-items: center;
+  grid-gap: $grid-gap - 1vh;
+}
+.spectrum__link img {
+  border-radius: 50%;
+  height: $font-size-m;
+  width: $font-size-m;
+}

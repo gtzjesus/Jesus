@@ -26,6 +26,7 @@ $font-size-subtitle: 6.5vh;
 $color-font: #ffffff;
 $color-font-alternative: #e7e167;
 $color-background: #131313;
+$color-spectrum: #b5d5f1;
 
 $grid-gap: 2.5vh;
 
@@ -36,4 +37,16 @@ $grid-gap: 2.5vh;
   margin: 0;
   padding: 0;
   color: inherit;
+}
+
+.name,
+.lastname {
+  color: $color-font-alternative;
+}
+.lastname {
+  font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
+}
+.lastname__spectrum {
+  color: $color-spectrum;
 }

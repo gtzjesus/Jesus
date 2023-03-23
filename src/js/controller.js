@@ -2,6 +2,7 @@ import aboutView from './views/aboutView';
 import codeView from './views/codeView';
 import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
+import spectrumView from './views/spectrumView';
 
 //// CONSTANTS THAT WE WILL NEED TO ACCESS FOR OUT APPLICATION
 const hiddenElements = window.document.querySelectorAll('.hidden');
@@ -45,5 +46,6 @@ const init = function () {
   descriptionView.render();
   aboutView.render();
   codeView.render();
+  spectrumView.render();
 };
 init();

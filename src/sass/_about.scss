@@ -18,14 +18,7 @@
   font-size: $font-size-subtitle;
   letter-spacing: $letter-spacing-sm - 0.25vh;
 }
-.name,
-.lastname {
-  color: $color-font-alternative;
-}
-.lastname {
-  font-size: $font-size-sm;
-  letter-spacing: $letter-spacing-sm;
-}
+
 .person {
   padding: $basic-padding-overall + 0.5vh;
 }

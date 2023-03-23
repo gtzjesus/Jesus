@@ -9,14 +9,14 @@ class GithubView {
   _generateMarkup() {
     return `
         <div class="github__container">
-        <div class="github__information">
-            <span>intrested in exploring<span class="lastname">more?</span></span>
-        </div>
-        <div class="github__link">
-            <a class="github__link__a" href="https://github.com/gtzjesus?tab=repositories" title="GitHub Repos">
-            <span><span class="tap">tap here</span> to visit all my code repos</span>
+            <div class="github__information">
+                <span>interested in exploring<span class="lastname">more?</span></span>
+            </div>
+            <a class="github__link__a" href="https://github.com/gtzjesus?tab=repositories"title="GitHub Repos">
+                <div class="github__link">
+                    <span><span class="tap">tap here</span> to visit all my code repos</span>
+                </div>
             </a>
-        </div>
         </div>
     `;
   }

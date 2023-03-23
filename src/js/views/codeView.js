@@ -21,7 +21,7 @@ class CodeView {
             <span >my build process<span class="lastname">usually goes as</span></span>
                 <div class="technologies ">
                     <div class="tech">
-                        <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
+                        <a class="tech__container" href="https://www.figma.com/" target="_blank">
                             <img class="icon" src="${figma}" title="Visual Studio Code" />
                             <span class="tech__subtitle">ui design</span>
                         </a>
@@ -30,7 +30,7 @@ class CodeView {
                     <div class="tech">
                     <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
                         <img class="icon" src="${vs}" title="Visual Studio Code" />
-                        <span class="tech__subtitle">code editor</span>
+                        <span class="tech__subtitle">code edit</span>
                     </a>
                     </div>
                     <div class="tech">

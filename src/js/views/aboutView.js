@@ -18,7 +18,7 @@ class AboutView {
         <div class="about__description">
             <span>
             ___________for years, i've aquired multiple skill sets
-            that have allowed me <span class="name">to expand</span> my knowledge in modern programming languages and technologies.
+            that have allowed me <span class="name">to expand</span> my knowledge in modern technologies and programming languages.
             </span>
         </div>
 

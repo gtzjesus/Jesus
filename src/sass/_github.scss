@@ -1,24 +1,17 @@
 .github {
   height: 100%;
   background-color: $color-background;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   padding: $basic-padding-overall + 0.5vh;
 }
-.github__container {
-}
+
 .github__information {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
   font-family: 'League Gothic', sans-serif;
   text-transform: uppercase;
   font-size: $font-size-subtitle;
   letter-spacing: $letter-spacing-sm - 0.25vh;
   color: $color-font;
+  padding-bottom: $padding-bottom-space;
 }
 .github__link {
   text-align: center;
@@ -30,6 +23,7 @@
   color: $color-font-alternative;
   border: 1vh solid $color-font-alternative;
   padding: $basic-padding-overall;
+  margin-bottom: $padding-bottom-space;
 }
 .github__link__a {
   text-align: center;

@@ -168,7 +168,8 @@
     padding: $padding-percentage;
   }
   .map {
-    padding: $basic-padding-overall;
+    padding: $basic-padding-overall -1vh;
+    height: fit-content;
   }
   .map__container {
     display: flex;

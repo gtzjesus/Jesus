@@ -9,7 +9,14 @@ class ContactView {
   _generateMarkup() {
     return `
         <div class="contact__container">
-            <span>hello</span>
+            <div class="contact__introduction">
+                <div class="contact__title">
+                    <span>let's <br /> connect</span>
+                </div>
+                <div class="contact__subtitle">
+                    <span>minding a project?</span>
+                </div>
+            </div>
         </div>
     `;
   }

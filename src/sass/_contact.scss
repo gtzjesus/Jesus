@@ -1,12 +1,31 @@
 .contact__section {
   background: $color-background;
   min-height: calc($calc-height-screen);
-  background: url(contact__background.gif) no-repeat center center fixed;
+  background: url(contact__background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .contact {
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
   height: $calc-height-screen;
+}
+.contact__container {
+  padding: $basic-padding-overall;
+}
+.contact__introduction {
+  display: flex;
+  flex-direction: column;
+}
+.contact__title {
+  font-size: $font-size-lg;
+  letter-spacing: $letter-spacing-lg;
+  color: $color-font;
+}
+.contact__subtitle {
+  font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-font-alternative;
 }

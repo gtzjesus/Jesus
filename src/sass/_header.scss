@@ -31,16 +31,6 @@
   }
 }
 
-.background__section {
-  background: $color-background;
-  min-height: calc($calc-height-screen);
-  background: url(background.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 @media (min-width: $bp-small) {
   .nav {
     font-size: $font-size-xs + 0.75vh;

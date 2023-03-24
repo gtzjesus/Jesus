@@ -1,5 +1,6 @@
 import aboutView from './views/aboutView';
 import codeView from './views/codeView';
+import contactVIew from './views/contactVIew';
 import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
 import githubView from './views/githubView';
@@ -51,5 +52,6 @@ const init = function () {
   spectrumView.render();
   mapView.render();
   githubView.render();
+  contactVIew.render();
 };
 init();

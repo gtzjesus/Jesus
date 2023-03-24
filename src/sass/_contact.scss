@@ -1,0 +1,12 @@
+.contact__section {
+  background: $color-background;
+  min-height: calc($calc-height-screen);
+  background: url(contact__background.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contact {
+  height: $calc-height-screen;
+}

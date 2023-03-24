@@ -1,7 +1,7 @@
 .background__section {
   background: $color-background;
   min-height: calc($calc-height-screen);
-  background: url(background.png);
+  background: url(background.png) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -12,9 +12,11 @@ class SpectrumView {
 
   _generateMarkup() {
     return `
+    <span class="spectrum__title">top software</span>
+
             <div class="spectrum__container">
+
                 <div class="spectrum__intro">
-                    <span class="spectrum__title">software applications</span>
                     <span class="spectrum__subtitle">spectrum assist</span>
                 </div>
 

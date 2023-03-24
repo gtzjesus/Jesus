@@ -9,13 +9,14 @@ $basic-size-vh: 10vh;
 $basic-margins-top: 1.5vh 0;
 $basic-padding-sides: 0 0.95vh;
 $basic-padding-overall: 3vh;
+$basic-padding-big-screen-projects: 5.5%;
 $basic-padding-techs: 2.5vh;
 $basic-padding-image-small-screens: 5%;
 $basic-padding-image-medium-screens: 15%;
 
 $padding-percentage: 5%;
 
-$padding-bottom-space: 15%;
+$padding-bottom-space: 5%;
 
 $letter-spacing-sm: -0.15vh;
 $letter-spacing-lg: -0.75vh;
@@ -29,6 +30,8 @@ $font-size-m: 3.5vh;
 $font-size-lg: 13vh;
 $font-size-subtitle: 6.5vh;
 
+$font-size-xl-bigscreen: 15vh;
+
 $color-font: #ffffff;
 $color-font-alternative: #e7e167;
 $color-background: #131313;
@@ -36,10 +39,10 @@ $color-spectrum: #b5d5f1;
 $color-mapper: #db2626;
 
 $grid-gap: 2.5vh;
-$grid-gap-big: 30%;
+$grid-gap-big: 25%;
+$grid-gap-xl: 20%;
 
 * {
-  font-stretch: expanded;
   list-style: none;
   text-decoration: none;
   margin: 0;

@@ -21,6 +21,16 @@
   letter-spacing: $letter-spacing-sm - 0.25vh;
   color: $color-font;
 }
+.spectrum__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: $font-size-sm + 2vh;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-font;
+}
 .spectrum__subtitle {
   display: flex;
   flex-direction: column;
@@ -87,6 +97,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: $basic-padding-overall + 0.5vh;
+    height: fit-content;
   }
   .spectrum__container {
     display: flex;
@@ -156,7 +167,8 @@
     padding: $padding-percentage;
   }
   .spectrum {
-    padding: $basic-padding-overall;
+    padding: $basic-padding-overall + 0.5vh;
+    height: fit-content;
   }
   .spectrum__container {
     display: flex;
@@ -185,11 +197,32 @@
   .spectrum__container {
     grid-gap: $grid-gap-big;
   }
+  .spectrum__description {
+    padding: $basic-padding-big-screen-projects;
+  }
   .spectrum__display {
     padding: $padding-percentage;
   }
   .spectrum__body {
     padding: 0;
     margin: 0;
+  }
+  .spectrum__link {
+    display: flex;
+    flex-direction: row;
+    grid-gap: $grid-gap;
+  }
+  .spectrum__link__a {
+    width: 35%;
+  }
+  .spectrum__link__flex {
+    display: flex;
+    justify-content: center;
+  }
+  .spectrum__title {
+    font-size: $font-size-subtitle + 2.5vh;
+  }
+  .spectrum__subtitle {
+    font-size: $font-size-xl-bigscreen;
   }
 }

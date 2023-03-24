@@ -11,7 +11,7 @@ class ContactView {
         <div class="contact__container">
             <div class="contact__introduction">
                 <div class="contact__title">
-                    <span>let's <br /> connect</span>
+                    <span>let'ss <br /> connect</span>
                 </div>
                 <div class="contact__subtitle">
                     <span>minding a project?</span>

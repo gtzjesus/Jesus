@@ -69,3 +69,76 @@ form button {
   outline: none;
   cursor: pointer;
 }
+
+@media (min-width: $bp-small) {
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $basic-padding-overall;
+  }
+  .contact__title {
+    font-size: $font-size-lg;
+    letter-spacing: $letter-spacing-lg;
+    color: $color-font;
+  }
+  .contact__subtitle {
+    font-size: $font-size-sm;
+    letter-spacing: $letter-spacing-sm;
+    color: $color-font-alternative;
+  }
+  .contact__form {
+    padding: $basic-padding-overall 15vh;
+  }
+  form input {
+    padding: 2vh;
+  }
+}
+@media (min-width: $bp-medium) {
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $basic-padding-overall;
+  }
+  .contact__title {
+    font-size: $font-size-lg;
+    letter-spacing: $letter-spacing-lg;
+    color: $color-font;
+  }
+  .contact__subtitle {
+    font-size: $font-size-sm;
+    letter-spacing: $letter-spacing-sm;
+    color: $color-font-alternative;
+  }
+  .contact__form {
+    padding: $basic-padding-overall 30vh;
+  }
+  form input {
+    padding: 2vh;
+  }
+}
+@media (min-width: $bp-large) {
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $basic-padding-overall;
+  }
+  .contact__title {
+    font-size: $font-size-lg;
+    letter-spacing: $letter-spacing-lg;
+    color: $color-font;
+  }
+  .contact__subtitle {
+    font-size: $font-size-sm;
+    letter-spacing: $letter-spacing-sm;
+    color: $color-font-alternative;
+  }
+  .contact__form {
+    padding: $basic-padding-overall 65vh;
+  }
+  form input {
+    padding: 2vh;
+  }
+}

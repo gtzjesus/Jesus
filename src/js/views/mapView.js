@@ -24,7 +24,7 @@ class MapView {
       </div>
       <div class="map__body">
       <span class="map__desc">
-      __________A FITNESS APPLICATION THAT <span class="lastname__map">ALLOWS USERS</span> TO LOG and keep track of MULTIPLE SETS OF CARDIOVASCULAR excercises. KEEP TRACK OF your FITNESS JOURNEY.
+      __________A FITNESS APPLICATION THAT <span class="lastname__map">ALLOWS USERS</span> TO LOG and keep track of MULTIPLE SETS OF CARDIOVASCULAR excercises.
       </span>
     <div class="map__link">
     <a class="map__link__a" href="https://mapassist.netlify.app" target="_blank">

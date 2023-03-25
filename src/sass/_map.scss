@@ -35,8 +35,8 @@
   text-transform: uppercase;
   font-size: $font-size-sm + 2vh;
   letter-spacing: $letter-spacing-sm;
-  color: $color-mapper;
-  border-bottom: 1px solid $color-mapper;
+  color: #ffe0c2;
+  border-bottom: 1px solid #ffe0c2;
 }
 
 .map__display {
@@ -69,8 +69,8 @@
   text-transform: uppercase;
   font-size: $font-size-sm;
   letter-spacing: $letter-spacing-sm;
-  color: $color-mapper;
-  border: 0.5vh solid $color-mapper;
+  color: #ffe0c2;
+  border: 0.5vh solid #ffe0c2;
   padding: $basic-padding-overall - 0.25vh;
 }
 .map__link__a {
@@ -137,8 +137,6 @@
     text-transform: uppercase;
     font-size: $font-size-sm;
     letter-spacing: $letter-spacing-sm;
-    color: $color-mapper;
-    border: 0.5vh solid $color-mapper;
     padding: $basic-padding-overall - 0.25vh;
   }
   .map__link__a {

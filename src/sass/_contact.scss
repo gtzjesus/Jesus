@@ -1,11 +1,12 @@
 .contact__section {
-  background: $color-background;
   min-height: calc($calc-height-screen);
   background: url(contact__background.png);
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 5%;
 }
 .contact {
   font-family: 'League Gothic', sans-serif;
@@ -13,7 +14,7 @@
   height: $calc-height-screen;
 }
 .contact__container {
-  padding: $basic-padding-overall;
+  padding: 5%;
 }
 .contact__introduction {
   display: flex;
@@ -75,7 +76,7 @@ form button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: $basic-padding-overall;
+    padding: 1% 7.5%;
   }
   .contact__title {
     font-size: $font-size-lg;
@@ -99,7 +100,7 @@ form button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: $basic-padding-overall;
+    padding: 0 8%;
   }
   .contact__title {
     font-size: $font-size-lg;
@@ -123,7 +124,7 @@ form button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: $basic-padding-overall;
+    padding: 0 15%;
   }
   .contact__title {
     font-size: $font-size-lg;
@@ -136,7 +137,7 @@ form button {
     color: $color-font-alternative;
   }
   .contact__form {
-    padding: $basic-padding-overall 65vh;
+    padding: $basic-padding-overall 30vh;
   }
   form input {
     padding: 2vh;

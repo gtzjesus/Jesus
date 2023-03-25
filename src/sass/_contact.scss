@@ -29,3 +29,44 @@
   letter-spacing: $letter-spacing-sm;
   color: $color-font-alternative;
 }
+
+.contact__body {
+  text-align: center;
+}
+.contact__form {
+  padding: $basic-padding-overall + 1.5vh;
+}
+form {
+  background-color: $color-font-alternative;
+  display: flex;
+  flex-direction: column;
+  padding: $padding-form-all-around;
+  text-transform: uppercase;
+}
+form span {
+  font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-background;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: $padding-bottom-space 0;
+  padding: $basic-padding-overall;
+  outline: none;
+}
+form input {
+  padding: 1.5vh;
+}
+form button {
+  padding: $padding-button;
+  margin: $padding-button;
+  width: 50%;
+  background-color: $color-background;
+  color: $color-font;
+  font-size: $font-size-xs;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}

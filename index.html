@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- EMAIL JS IMPLEMENTATION -->
+    <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("SMz_JCzhJQgWpBqBy");
+      })();
+    </script>
+    <!-- EMAIL JS IMPLEMENTATION -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/sass/main.scss" />
     <script type="module" defer src="src/js/controller.js"></script>
+    <script src="src/js/handlers/form.js" type="text/javascript"></script>
     <title>Creator</title>
   </head>
   <div id="loader" class="center"></div>
@@ -50,7 +59,19 @@
       <div class="github"></div>
     </section>
     <section class="contact__section ">
-      <div class="contact"></div>
+      <div class="contact" >
+        <div class="contact__body">
+          <div class="contact__form">
+              <form>
+                  <span></span>
+                  <input type="text" id="name" placeholder="NAME" required />
+                  <input type="text" id="email" placeholder="EMAIL" required />
+                  <textarea id="message" placeholder="MESSAGE" required></textarea>
+                  <button onclick="sendMail()" >SUBMIT</button>                        
+              </form>
+          </div>
+      </div>
+      </div>
     </section>
   </body>
 </html>

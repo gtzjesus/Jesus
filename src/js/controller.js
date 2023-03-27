@@ -18,7 +18,7 @@ const hiddenDelayElements = window.document.querySelectorAll('.hidden__delay');
  */
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
+    // console.log(entry);
     if (entry.isIntersecting) {
       //// SHOWING ONLY ANIMATION ONCE
       entry.target.classList.add('show');

@@ -71,7 +71,7 @@
     position: relative;
     top: 0;
     line-height: $line-height + 5.5vh;
-    padding: $basic-padding-overall + 5vh;
+    padding: $basic-padding-overall;
   }
   .tiny__title {
     font-size: $font-size-sm + 7.5vh;
@@ -86,7 +86,7 @@
     right: 0;
     bottom: 0;
     width: 75vh;
-    font-size: $font-size-m + 4vh;
+    font-size: $font-size-m + 3vh;
     line-height: $line-height-description - 10.5%;
     letter-spacing: $letter-spacing-sm -0.5vh;
     padding: $basic-padding-overall + 5vh;

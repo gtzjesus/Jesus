@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <!-- EMAIL JS IMPLEMENTATION -->
-    <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-      (function(){
-          emailjs.init("SMz_JCzhJQgWpBqBy");
+      (function () {
+        emailjs.init('SMz_JCzhJQgWpBqBy');
       })();
     </script>
     <!-- EMAIL JS IMPLEMENTATION -->
@@ -17,39 +20,52 @@
     <link rel="stylesheet" href="/src/sass/main.scss" />
     <script type="module" defer src="src/js/controller.js"></script>
     <script type="text/javascript" defer src="src/js/handlers/form.js"></script>
+    <script
+      type="text/javascript"
+      defer
+      src="src/js/handlers/sticky.js"
+    ></script>
     <!-- IMPORTING ALL OTHER FILES INTO HTML -->
   </head>
 
-    <!-- LOADER AT BEGINNING -->
-    <div id="loader" class="center"></div>
-    <!-- LOADER AT BEGINNING -->
+  <!-- LOADER AT BEGINNING -->
+  <div id="loader" class="center"></div>
+  <!-- LOADER AT BEGINNING -->
 
   <body>
     <!-- LANDING SECTION -->
-    <section class="background__section">
+    <section class="landing">
       <!-- HEADER IMPLEMENTATION -->
-      <header class="header hidden__delay">
-        <!-- FIRST NAV INTEGRATION -->
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item special__logo">
-              <a href="#">jesus gtz</a>
+      <header class="primary__header flex">
+        <div>
+          <img src="src/js/views/imgs/header/logo.gif" class="logo" />
+        </div>
+
+        <button
+          class="mobile__nav__toggle"
+          aria-controls="primary__navigation"
+          aria-expanded="false"
+        ></button>
+
+        <nav>
+          <ul
+            id="primary__navigation"
+            data-visible="false"
+            class="primary__navigation flex"
+          >
+            <li class="active">
+              <a href=""> <span aria-hidden="true">01</span>about </a>
             </li>
-            <li class="nav__item special"><a href="#">ux/ui,<a></li>
-            <li class="nav__item special"><a href="#">developer</a></li>
+            <li class="active">
+              <a href=""> <span aria-hidden="true">02</span>code </a>
+            </li>
+            <li class="active">
+              <a href=""> <span aria-hidden="true">03</span>contact </a>
+            </li>
           </ul>
         </nav>
-        <!-- FIRST NAV INTEGRATION -->
-        <!-- SECOND NAV INTEGRATION (WITH LINKS) -->
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#">about.</a></li>
-            <li class="nav__item"><a href="#">code.</a></li>
-            <li class="nav__item"><a href="#">contact.</a></li>
-          </ul>
-        </nav>
-        <!-- SECOND NAV INTEGRATION (WITH LINKS) -->
       </header>
+
       <!-- HEADER IMPLEMENTATION -->
       <!-- CONTENT LANDING IMPLEMENTATION -->
       <div class="content__container">
@@ -66,54 +82,102 @@
     <!-- MY ABOUT SECTION -->
     <!-- MY BUILD PROCESS SECTION -->
     <section>
-      <div class="code ">
+      <div class="code">
         <!-- TECHNOLOGIES CONTAINER STORING ALL DIFFERENT TECH CONTAINERS -->
-        <div class="technologies ">
+        <div class="technologies">
           <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
-          <div class="tech hidden">  
-              <a class="tech__container" href="https://www.figma.com/" target="_blank">
-                  <img class="icon" src="src/js/views/imgs/techs/figma.png" title="Visual Studio Code" />
-                  <span class="tech__subtitle">ui design</span>
-              </a>
+          <div class="tech hidden">
+            <a
+              class="tech__container"
+              href="https://www.figma.com/"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="src/js/views/imgs/techs/figma.png"
+                title="Visual Studio Code"
+              />
+              <span class="tech__subtitle">ui design</span>
+            </a>
           </div>
           <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
           <div class="tech hidden">
-          <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
-              <img class="icon" src="src/js/views/imgs/techs/vs.png" title="Visual Studio Code" />
+            <a
+              class="tech__container"
+              href="https://code.visualstudio.com"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="src/js/views/imgs/techs/vs.png"
+                title="Visual Studio Code"
+              />
               <span class="tech__subtitle">code edit</span>
-          </a>
+            </a>
           </div>
           <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
           <div class="tech hidden">
-              <a class="tech__container" href="https://nodejs.org/en/docs" target="_blank">
-                  <img class="icon" src="src/js/views/imgs/techs/node.png" title="Node JS" />
-                  <span class="tech__subtitle">backend</span>
-              </a>
+            <a
+              class="tech__container"
+              href="https://nodejs.org/en/docs"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="src/js/views/imgs/techs/node.png"
+                title="Node JS"
+              />
+              <span class="tech__subtitle">backend</span>
+            </a>
           </div>
           <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
           <div class="tech hidden">
-              <a class="tech__container" href="https://htmlcheatsheet.com/js/" target="_blank">
-                  <img class="icon" src="src/js/views/imgs/techs/js.png" title="JavaScript" />
-                  <span class="tech__subtitle">frontend</span>
-              </a>
+            <a
+              class="tech__container"
+              href="https://htmlcheatsheet.com/js/"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="src/js/views/imgs/techs/js.png"
+                title="JavaScript"
+              />
+              <span class="tech__subtitle">frontend</span>
+            </a>
           </div>
           <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
           <div class="tech hidden">
-              <a class="tech__container" href=" https://github.com/gtzjesus" target="_blank">
-                  <img class="icon" src="src/js/views/imgs/techs/github.png" title="GitHub" />
-                  <span class="tech__subtitle">code repo</span>
-              </a>
+            <a
+              class="tech__container"
+              href=" https://github.com/gtzjesus"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="src/js/views/imgs/techs/github.png"
+                title="GitHub"
+              />
+              <span class="tech__subtitle">code repo</span>
+            </a>
           </div>
           <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
           <div class="tech hidden">
-              <a class="tech__container" href=" https://netlify.com" target="_blank">
-                  <img class="icon" src="src/js/views/imgs/techs/netlify.png" title="Netlify" />
-                  <span class="tech__subtitle">host site</span>
-              </a>
+            <a
+              class="tech__container"
+              href=" https://netlify.com"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="src/js/views/imgs/techs/netlify.png"
+                title="Netlify"
+              />
+              <span class="tech__subtitle">host site</span>
+            </a>
           </div>
-      </div>
+        </div>
         <!-- TECHNOLOGIES CONTAINER STORING ALL DIFFERENT TECH CONTAINERS -->
-    </div>
+      </div>
     </section>
     <!-- MY BUILD PROCESS SECTION -->
     <!-- SPECTRUM ASSIST SECTION -->
@@ -132,20 +196,20 @@
     </section>
     <!-- GITHUB REPOS SECTION -->
     <!-- LETS CONNECT SECTION -->
-    <section class="contact__section ">
-      <div class="contact" >
+    <section class="contact__section">
+      <div class="contact">
         <div class="contact__body">
           <div class="contact__form">
-              <!-- FORM FOR USER SENDING MESSAGE -->
-              <form class="hidden__delay">
-                  <input type="text" id="name" placeholder="NAME" required />
-                  <input type="text" id="email" placeholder="EMAIL" required />
-                  <textarea id="message" placeholder="MESSAGE" required></textarea>
-                  <button onclick="sendMail()">SUBMIT</button>                        
-              </form>
-              <!-- FORM FOR USER SENDING MESSAGE -->
+            <!-- FORM FOR USER SENDING MESSAGE -->
+            <form class="hidden__delay">
+              <input type="text" id="name" placeholder="NAME" required />
+              <input type="text" id="email" placeholder="EMAIL" required />
+              <textarea id="message" placeholder="MESSAGE" required></textarea>
+              <button onclick="sendMail()">SUBMIT</button>
+            </form>
+            <!-- FORM FOR USER SENDING MESSAGE -->
           </div>
-      </div>
+        </div>
       </div>
     </section>
     <!-- LETS CONNECT SECTION -->

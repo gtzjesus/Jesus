@@ -1,43 +1,79 @@
-.header {
+.primary__header {
   font-family: 'League Gothic', sans-serif;
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid black bottom;
-  border-bottom: 0.5px solid $color-font;
-  padding: $basic-padding-overall;
-  color: $color-font;
-  margin: $basic-padding-sides;
-}
-.nav {
+  padding: 2rem;
   font-size: $font-size-xs;
-  letter-spacing: $letter-spacing-sm + 0.15vh;
+  text-transform: uppercase;
 }
-.nav__list {
+.mobile__nav__toggle {
+  display: none;
+}
+.primary__navigation {
+  background: hsl(0 0% 100% / 0.1);
+  backdrop-filter: blur(1rem);
+}
+.primary__navigation a > span {
+  font-weight: 700;
+  text-transform: bold;
+  margin-inline-end: 0.5em;
+  color: $color-font-alternative;
+}
+
+nav {
+  color: white;
+}
+.logo {
+  height: 5vh;
+  border-radius: 5vh;
+}
+.flex {
   display: flex;
-  align-items: center;
-}
-.nav__item {
-  padding: $basic-padding-sides;
-
-  &.special {
-    text-transform: uppercase;
-    display: none;
-  }
-  &.special__logo {
-    text-transform: uppercase;
-    color: $color-font-alternative;
-  }
+  gap: var(--gap, 1rem);
 }
 
-@media (min-width: $bp-small) {
-  .nav {
-    font-size: $font-size-xs + 0.75vh;
+@media (max-width: 35em) {
+  .primary__navigation {
+    --gap: 2em;
+
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2em;
+
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
   }
-  .nav__item {
-    &.special {
-      display: block;
-    }
+  .primary__navigation[data-visible='true'] {
+    transform: translateX(0%);
+  }
+  .mobile__nav__toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background: url('hamburger-open.png');
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+  }
+  .mobile__nav__toggle[aria-expanded='true'] {
+    background-image: url('hamburger-close.png');
+  }
+}
+
+@media (min-width: 35em) {
+  .primary__navigation {
+    padding-block: 2rem;
+    padding-inline: clamp(3rem, 5vw, 10rem);
+  }
+  .logo {
+    height: 10vh;
+    border-radius: 5vh;
   }
 }

@@ -34,13 +34,16 @@ const observer = new IntersectionObserver((entries) => {
 hiddenElements.forEach((element) => observer.observe(element));
 hiddenDelayElements.forEach((element) => observer.observe(element));
 
+/**
+ * LOADER LOGIN IMPLEMENTAION (IF DOCUMENT IS NOT READY(!COMPLETE) DISPLAY LOADER UNTIL ITS COMPLETE)
+ */
 document.onreadystatechange = function () {
   if (document.readyState !== 'complete') {
-    document.querySelector('.code__container').style.visibility = 'hidden';
+    document.querySelector('body').style.visibility = 'hidden';
     document.querySelector('#loader').style.visibility = 'visible';
   } else {
     document.querySelector('#loader').style.display = 'none';
-    document.querySelector('.code__container').style.visibility = 'visible';
+    document.querySelector('body').style.visibility = 'visible';
   }
 };
 

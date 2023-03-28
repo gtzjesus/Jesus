@@ -50,6 +50,11 @@ nav {
   .primary__navigation[data-visible='true'] {
     transform: translateX(0%);
   }
+  .link[data-visible='true'] {
+    .primary__navigation {
+      transform: translateX(0%);
+    }
+  }
   .mobile__nav__toggle {
     display: block;
     position: absolute;

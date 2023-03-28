@@ -12,17 +12,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creator</title>
+    <!-- IMPORTING ALL OTHER FILES INTO HTML -->
     <link rel="stylesheet" href="/src/sass/main.scss" />
     <script type="module" defer src="src/js/controller.js"></script>
     <script type="text/javascript" defer src="src/js/handlers/form.js"></script>
-
-
-    <title>Creator</title>
+    <!-- IMPORTING ALL OTHER FILES INTO HTML -->
   </head>
-  <div id="loader" class="center"></div>
+
+    <!-- LOADER AT BEGINNING -->
+    <div id="loader" class="center"></div>
+    <!-- LOADER AT BEGINNING -->
+
   <body>
+    <!-- LANDING SECTION -->
     <section class="background__section">
+      <!-- HEADER IMPLEMENTATION -->
       <header class="header hidden__delay">
+        <!-- FIRST NAV INTEGRATION -->
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item special__logo">
@@ -32,6 +39,8 @@
             <li class="nav__item special"><a href="#">developer</a></li>
           </ul>
         </nav>
+        <!-- FIRST NAV INTEGRATION -->
+        <!-- SECOND NAV INTEGRATION (WITH LINKS) -->
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item"><a href="#">about.</a></li>
@@ -39,81 +48,106 @@
             <li class="nav__item"><a href="#">contact.</a></li>
           </ul>
         </nav>
+        <!-- SECOND NAV INTEGRATION (WITH LINKS) -->
       </header>
+      <!-- HEADER IMPLEMENTATION -->
+      <!-- CONTENT LANDING IMPLEMENTATION -->
       <div class="content__container">
         <div class="content hidden__delay"></div>
         <div class="description hidden__delay"></div>
       </div>
+      <!-- CONTENT LANDING IMPLEMENTATION -->
     </section>
+    <!-- LANDING SECTION -->
+    <!-- MY ABOUT SECTION -->
     <section>
       <div class="about"></div>
     </section>
+    <!-- MY ABOUT SECTION -->
+    <!-- MY BUILD PROCESS SECTION -->
     <section>
       <div class="code ">
+        <!-- TECHNOLOGIES CONTAINER STORING ALL DIFFERENT TECH CONTAINERS -->
         <div class="technologies ">
-        <div class="tech hidden">  
-            <a class="tech__container" href="https://www.figma.com/" target="_blank">
-                <img class="icon" src="src/js/views/imgs/techs/figma.png" title="Visual Studio Code" />
-                <span class="tech__subtitle">ui design</span>
-            </a>
-        </div>
-        <span></span>
-        <div class="tech hidden">
-        <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
-            <img class="icon" src="src/js/views/imgs/techs/vs.png" title="Visual Studio Code" />
-            <span class="tech__subtitle">code edit</span>
-        </a>
-        </div>
-        <div class="tech hidden">
-            <a class="tech__container" href="https://nodejs.org/en/docs" target="_blank">
-                <img class="icon" src="src/js/views/imgs/techs/node.png" title="Node JS" />
-                <span class="tech__subtitle">backend</span>
-            </a>
-        </div>
-        <div class="tech hidden">
-            <a class="tech__container" href="https://htmlcheatsheet.com/js/" target="_blank">
-                <img class="icon" src="src/js/views/imgs/techs/js.png" title="JavaScript" />
-                <span class="tech__subtitle">frontend</span>
-            </a>
-        </div>
-        <div class="tech hidden">
-            <a class="tech__container" href=" https://github.com/gtzjesus" target="_blank">
-                <img class="icon" src="src/js/views/imgs/techs/github.png" title="GitHub" />
-                <span class="tech__subtitle">code repo</span>
-            </a>
-        </div>
-        <div class="tech hidden">
-            <a class="tech__container" href=" https://netlify.com" target="_blank">
-                <img class="icon" src="src/js/views/imgs/techs/netlify.png" title="Netlify" />
-                <span class="tech__subtitle">host site</span>
-            </a>
-        </div>
-    </div>
+          <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
+          <div class="tech hidden">  
+              <a class="tech__container" href="https://www.figma.com/" target="_blank">
+                  <img class="icon" src="src/js/views/imgs/techs/figma.png" title="Visual Studio Code" />
+                  <span class="tech__subtitle">ui design</span>
+              </a>
+          </div>
+          <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
+          <div class="tech hidden">
+          <a class="tech__container" href="https://code.visualstudio.com" target="_blank">
+              <img class="icon" src="src/js/views/imgs/techs/vs.png" title="Visual Studio Code" />
+              <span class="tech__subtitle">code edit</span>
+          </a>
+          </div>
+          <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
+          <div class="tech hidden">
+              <a class="tech__container" href="https://nodejs.org/en/docs" target="_blank">
+                  <img class="icon" src="src/js/views/imgs/techs/node.png" title="Node JS" />
+                  <span class="tech__subtitle">backend</span>
+              </a>
+          </div>
+          <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
+          <div class="tech hidden">
+              <a class="tech__container" href="https://htmlcheatsheet.com/js/" target="_blank">
+                  <img class="icon" src="src/js/views/imgs/techs/js.png" title="JavaScript" />
+                  <span class="tech__subtitle">frontend</span>
+              </a>
+          </div>
+          <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
+          <div class="tech hidden">
+              <a class="tech__container" href=" https://github.com/gtzjesus" target="_blank">
+                  <img class="icon" src="src/js/views/imgs/techs/github.png" title="GitHub" />
+                  <span class="tech__subtitle">code repo</span>
+              </a>
+          </div>
+          <!-- INDIVIDUAL CONTAINER DISPLAYING TECH INFO -->
+          <div class="tech hidden">
+              <a class="tech__container" href=" https://netlify.com" target="_blank">
+                  <img class="icon" src="src/js/views/imgs/techs/netlify.png" title="Netlify" />
+                  <span class="tech__subtitle">host site</span>
+              </a>
+          </div>
       </div>
+        <!-- TECHNOLOGIES CONTAINER STORING ALL DIFFERENT TECH CONTAINERS -->
+    </div>
     </section>
+    <!-- MY BUILD PROCESS SECTION -->
+    <!-- SPECTRUM ASSIST SECTION -->
     <section>
       <div class="spectrum"></div>
     </section>
+    <!-- SPECTRUM ASSIST SECTION -->
+    <!-- MAPPER FITNESS SECTION -->
     <section>
       <div class="map"></div>
     </section>
+    <!-- MAPPER FITNESS SECTION -->
+    <!-- GITHUB REPOS SECTION -->
     <section>
       <div class="github"></div>
     </section>
+    <!-- GITHUB REPOS SECTION -->
+    <!-- LETS CONNECT SECTION -->
     <section class="contact__section ">
       <div class="contact" >
         <div class="contact__body">
           <div class="contact__form">
-              <form>
-                  <span></span>
+              <!-- FORM FOR USER SENDING MESSAGE -->
+              <form class="hidden__delay">
                   <input type="text" id="name" placeholder="NAME" required />
                   <input type="text" id="email" placeholder="EMAIL" required />
                   <textarea id="message" placeholder="MESSAGE" required></textarea>
                   <button onclick="sendMail()">SUBMIT</button>                        
               </form>
+              <!-- FORM FOR USER SENDING MESSAGE -->
           </div>
       </div>
       </div>
     </section>
+    <!-- LETS CONNECT SECTION -->
   </body>
 </html>

@@ -1,4 +1,11 @@
+/**
+ * 'LETS CONNECT SECTION' FUNCTION GRABS USER'S INPUT FROM INPUT AREAS (INTO OBJECT)
+ * USING 'emailjs' WE CAN '.send' THE INFORMATION GRABBED FROM OUR 'params object
+ * INTO OUR SERVICE PROVIDER TO DISPLAY EMAIL TEMPLATE.
+ * @returns MESSAGE (CONFIRMATION OF DELIVERY)
+ */
 function sendMail() {
+  event.preventDefault();
   const params = {
     name: document.getElementById('name').value,
     email: document.getElementById('email').value,
@@ -11,12 +18,12 @@ function sendMail() {
   emailjs
     .send(serviceID, templateID, params)
     .then((res) => {
-      (document.getElementById('name').value = ''),
-        (document.getElementById('email').value = ''),
-        (document.getElementById('message').value = '');
+      (document.getElementById('name').value = ' '),
+        (document.getElementById('email').value = ' '),
+        (document.getElementById('message').value = ' ');
 
       console.log(res);
-      alert('Message sent successfully' + res.status);
+      return alert('Message Success');
     })
     .catch((error) => console.log(error));
 }

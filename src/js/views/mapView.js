@@ -29,12 +29,12 @@ class MapView {
     <div class="map__link">
     <a class="map__link__a" href="https://mapassist.netlify.app" target="_blank">
       <div class="map__link__cont">
-        <span class="map__link__flex">visit site <img src="${host}" title="Visit Site" /></span>
+        <span class="map__link__flex">site<img src="${host}" title="Visit Site" /></span>
       </div>
     </a>
     <a class="map__link__a" href="https://github.com/gtzjesus/mapAssist" target="_blank">
       <div class="map__link__cont">
-        <span class="map__link__flex">visit git <img src="${gh}" title="Visit Repo" /></span>
+        <span class="map__link__flex">github<img src="${gh}" title="Visit Repo" /></span>
       </div>
       </a>
   </div>

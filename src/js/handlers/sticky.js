@@ -6,7 +6,6 @@ const linkThree = document.querySelector('.link-three');
 
 navToggle.addEventListener('click', function () {
   const visibility = primaryNav.getAttribute('data-visible');
-
   if (visibility === 'false') {
     primaryNav.setAttribute('data-visible', true);
     navToggle.setAttribute('aria-expanded', true);

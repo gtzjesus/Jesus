@@ -8,9 +8,9 @@ class ContentView {
 
   _generateMarkup() {
     return `
-    <span class="tiny__title">creative</span>
-    <span class="title">designer<span class="tiny__title">&</span></span>
-    <span class="title">developer</span>
+    <span class="tiny__title">full-stack</span>
+    <span class="title">software<span class="tiny__title">+</span></span>
+    <span class="title">engineer</span>
     
     `;
   }

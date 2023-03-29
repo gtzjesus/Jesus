@@ -23,10 +23,10 @@ class FooterView {
                 </div>
                 <div class="links__container">
                     <ul class="links">
-                        <li class="link"><a><img href="" src="${instagram}" /></a></li>
-                        <li class="link"><a><img href="" src="${github}" /></a></li>
-                        <li class="link"><a><img href="" src="${linkedin}" /></a></li>
-                        <li class="link"><a><img href="" src="${twitter}" /></a></li>
+                        <li class="link"><a><img href="https://www.instagram.com/jesegtz/" src="${instagram}" /></a></li>
+                        <li class="link"><a><img href="https://github.com/gtzjesus" src="${github}" /></a></li>
+                        <li class="link"><a><img href="https://www.linkedin.com/in/jesus-gtz/" src="${linkedin}" /></a></li>
+                        <li class="link"><a><img href="https://twitter.com/JesusGt74069281" src="${twitter}" /></a></li>
                     </ul>
                 </div>
                 <div class="copyright">

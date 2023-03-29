@@ -83,3 +83,9 @@ body {
 .lastname__map {
   color: #ffe0c2;
 }
+
+@media (min-width: 100px) and (orientation: landscape) {
+  body {
+    display: none;
+  }
+}

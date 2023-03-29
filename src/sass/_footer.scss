@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.footer {
+  font-family: 'League Gothic', sans-serif;
+  height: $calc-height-footer;
+  background-color: $color-background;
+  color: $color-font;
+  padding: 2.5rem;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.logo__footer {
+  height: 5vh;
+  border-radius: 5vh;
+  margin-bottom: 1rem;
+}
+.quote {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: -0.2rem;
+  font-size: $font-size-m;
+  text-transform: uppercase;
+}
+.links__container {
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link {
+  padding: 2rem;
+}
+.copyright {
+  font-size: $font-size-xs;
+}
+.copyright span {
+  color: $color-font-alternative;
+}

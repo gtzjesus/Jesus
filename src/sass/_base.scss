@@ -84,7 +84,7 @@ body {
   color: #ffe0c2;
 }
 
-@media (min-width: 100px) and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   body {
     display: none;
   }

@@ -84,8 +84,27 @@ body {
   color: #ffe0c2;
 }
 
+.landscape__orientation {
+  background-color: $color-background;
+  color: #ffe0c2;
+  z-index: 9999;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.landscape__orientation span {
+  font-family: 'League Gothic', sans-serif;
+  font-size: $font-size-lg;
+  text-transform: uppercase;
+  line-height: $line-height + 3.5vh;
+}
+
 @media screen and (orientation: landscape) {
   body {
     display: none;
+  }
+  .landscape__orientation {
+    display: flex;
   }
 }

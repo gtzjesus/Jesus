@@ -38,7 +38,7 @@ nav {
     --gap: 2em;
 
     position: fixed;
-    z-index: 1000;
+    z-index: 9997;
     inset: 0 0 0 30%;
 
     flex-direction: column;
@@ -58,7 +58,7 @@ nav {
   .mobile__nav__toggle {
     display: block;
     position: absolute;
-    z-index: 9999;
+    z-index: 9998;
     background: url('hamburger-open.png');
     background-repeat: no-repeat;
     width: 2rem;

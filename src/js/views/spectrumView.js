@@ -32,7 +32,7 @@ class SpectrumView {
                 <div class="spectrum__link">
                 <a class="spectrum__link__a" href="https://spectrumassist.netlify.app" target="_blank">
                   <div class="spectrum__link__cont">
-                    <span class="spectrum__link__flex">site <img src="${host}" title="Visit Site" /></span>
+                    <span class="spectrum__link__flex">website <img src="${host}" title="Visit Site" /></span>
                   </div>
                 </a>
                 <a class="spectrum__link__a" href="https://github.com/gtzjesus/SpectrumAssist" target="_blank">

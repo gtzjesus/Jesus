@@ -22,7 +22,7 @@
 .quote {
   font-family: 'Amatic SC', cursive;
   letter-spacing: -0.2rem;
-  font-size: $font-size-m;
+  font-size: $font-size-m + 0.5vh;
   text-transform: uppercase;
 }
 .links__container {

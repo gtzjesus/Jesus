@@ -100,7 +100,7 @@ body {
   line-height: $line-height + 3.5vh;
 }
 
-@media screen and (min-width: 3px) and (max-width: 300px) and (orientation: landscape) {
+@media only screen and (min-aspect-ratio: 1/1) {
   section {
     display: none;
   }

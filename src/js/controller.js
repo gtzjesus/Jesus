@@ -64,7 +64,8 @@ if (!!window.matchMedia.addListener) {
       // portrait
     } else {
       // landscape
-      document.getElementById('section').style.color = 'tomato';
+      document.getElementById('section').style.display = 'none';
+      console.log(window.orientation);
       document.getElementsByClassName('landscape__orientation').style.display =
         'flex';
     }

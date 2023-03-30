@@ -48,6 +48,29 @@ document.onreadystatechange = function () {
   }
 };
 
+function orientationHandler(mql) {
+  if (mql.matches) {
+    // landscape
+  } else {
+    // portrait
+  }
+}
+
+if (!!window.matchMedia.addListener) {
+  window.matchMedia('(orientation:landscape)').addListener(orientationHandler);
+} else {
+  window.addEventListener('orientationchange', function (e) {
+    if (window.orientation == 'portrait') {
+      // portrait
+    } else {
+      // landscape
+      document.getElementsByName('section').style.color = 'tomato';
+      document.getElementsByClassName('.landscape__orientation').style.display =
+        'flex';
+    }
+  });
+}
+
 const init = function () {
   contentView.render();
   descriptionView.render();

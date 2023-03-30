@@ -99,12 +99,3 @@ body {
   text-transform: uppercase;
   line-height: $line-height + 3.5vh;
 }
-
-@media only screen and (min-aspect-ratio: 1/1) {
-  section {
-    display: none;
-  }
-  .landscape__orientation {
-    display: flex;
-  }
-}

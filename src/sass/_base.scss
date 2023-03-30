@@ -58,7 +58,9 @@ $padding-form-all-around: 10%;
 body {
   overflow-x: hidden;
 }
-
+#section {
+  display: block;
+}
 .landing {
   background: $color-background;
   min-height: calc($calc-height-screen);
@@ -68,7 +70,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .name,
 .lastname {
   color: $color-font-alternative;

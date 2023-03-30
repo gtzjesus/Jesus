@@ -44,7 +44,7 @@ nav {
     flex-direction: column;
     padding: min(30vh, 10rem) 2em;
 
-    transform: translateX(100%);
+    transform: translateX(0%);
     transition: transform 350ms ease-out;
   }
   .primary__navigation[data-visible='true'] {

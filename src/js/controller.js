@@ -49,6 +49,18 @@ hiddenDelayElements.forEach((element) => observer.observe(element));
 //   }
 // };
 
+document.onreadystatechange = function () {
+  if (document.readyState !== 'complete') {
+    document.querySelector('#loader').style.visibility = 'visible';
+    document.querySelector('#body').style.visibility = 'none';
+    document.querySelector('#body').style.display = 'none';
+  } else {
+    document.querySelector('#loader').style.visibility = 'none';
+    document.querySelector('#body').style.visibility = 'visible';
+    document.querySelector('#body').style.display = 'visible';
+  }
+};
+
 const init = function () {
   contentView.render();
   descriptionView.render();

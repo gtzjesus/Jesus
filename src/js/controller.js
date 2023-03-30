@@ -36,28 +36,15 @@ hiddenElements.forEach((element) => observer.observe(element));
 hiddenDelayElements.forEach((element) => observer.observe(element));
 
 /**
- * LOADER IMPLEMENTAION (IF DOCUMENT IS NOT READY(!COMPLETE) DISPLAY LOADER UNTIL ITS COMPLETE)
+ * LOADER LOGIN IMPLEMENTAION (IF DOCUMENT IS NOT READY(!COMPLETE) DISPLAY LOADER UNTIL ITS COMPLETE)
  */
-// document.onreadystatechange = function () {
-//   if (document.readyState !== 'complete') {
-//     document.querySelector('#loader').style.visibility = 'none';
-//     document.querySelector('#body').style.display = 'none';
-//     document.querySelector('#section').style.display = 'none';
-//     document.querySelector('#section').style.visibility = 'none';
-//   } else {
-//     document.querySelector('#loader').style.display = 'none';
-//   }
-// };
-
 document.onreadystatechange = function () {
   if (document.readyState !== 'complete') {
+    document.querySelector('#body').style.visibility = 'hidden';
     document.querySelector('#loader').style.visibility = 'visible';
-    document.querySelector('#body').style.visibility = 'none';
-    document.querySelector('#body').style.display = 'none';
   } else {
-    document.querySelector('#loader').style.visibility = 'none';
+    document.querySelector('#loader').style.display = 'none';
     document.querySelector('#body').style.visibility = 'visible';
-    document.querySelector('#body').style.display = 'visible';
   }
 };
 

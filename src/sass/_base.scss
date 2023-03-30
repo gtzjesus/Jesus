@@ -100,7 +100,7 @@ body {
   line-height: $line-height + 3.5vh;
 }
 
-@media screen and (max-width: $bp-smallest) and (orientation: landscape) {
+@media screen and (min-width: $bp-smallest) and (orientation: landscape) {
   section {
     display: none;
   }

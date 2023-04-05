@@ -1,0 +1,21 @@
+.research__container {
+  font-family: 'League Gothic', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  grid-gap: $grid-gap;
+  height: $calc-height-screen;
+  color: #ffff;
+  padding: $basic-padding-overall + 0.5vh;
+  align-items: center;
+}
+.research__introduction {
+  font-size: $font-size-subtitle;
+  letter-spacing: $letter-spacing-sm - 0.25vh;
+}
+.research__description {
+  font-size: $font-size-m;
+  line-height: $line-height-description;
+  letter-spacing: $letter-spacing-sm;
+  padding: $basic-padding-overall;
+}

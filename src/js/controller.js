@@ -7,6 +7,7 @@ import githubView from './views/githubView';
 import mapView from './views/mapView';
 import spectrumView from './views/spectrumView';
 import footerView from './views/footerView';
+import researchView from './views/researchView';
 
 //// CONSTANTS THAT WE WILL NEED TO ACCESS FOR OUT APPLICATION
 const hiddenElements = window.document.querySelectorAll('.hidden');
@@ -55,6 +56,7 @@ const init = function () {
   codeView.render();
   spectrumView.render();
   mapView.render();
+  researchView.render();
   githubView.render();
   contactVIew.render();
   footerView.render();

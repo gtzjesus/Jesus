@@ -40,6 +40,7 @@ $color-font-alternative: #e7e167;
 $color-background: #131313;
 $color-spectrum: #b5d5f1;
 $color-mapper: #ff3d00;
+$color-research: #8df95a;
 
 $grid-gap: 2.5vh;
 $grid-gap-big: 25%;
@@ -84,6 +85,14 @@ body {
 }
 .lastname__map {
   color: #ffe0c2;
+}
+.research {
+  color: $color-research;
+}
+.res {
+  color: $color-research;
+  font-size: $font-size-sm;
+  letter-spacing: $letter-spacing-sm;
 }
 
 .landscape__orientation {

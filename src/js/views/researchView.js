@@ -1,3 +1,4 @@
+import research from '../views/imgs/research/research.gif';
 class ResearchView {
   _parentElement = document.querySelector('.research');
 
@@ -10,11 +11,14 @@ class ResearchView {
     return `
         <div class="research__container">
             <div class="research__introduction">
-                <span>in research <span class="lastname">i've had the privilege to</span>
+                <span>in research <span class="res">i've had the privilege to</span>
                 </span>
             </div>
             <div class="research__description">
-                <span>___________collaborate with both, military stakeholders and a team of engineers, to  <span class="name">fully implement</span> a scanning and enumeration software used to find vulnerabilities in military reports.<span class="lastname"></span></span>
+                <span>___________collaborate with both, military stakeholders and a team of engineers, to  <span class="research">fully implement</span> a scanning and enumeration software used to find vulnerabilities in military reports.<span class="lastname"></span></span>
+            </div>
+            <div class="research__image">
+                <img src="${research}" />
             </div>
         </div>
     `;

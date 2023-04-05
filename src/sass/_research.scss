@@ -19,3 +19,10 @@
   letter-spacing: $letter-spacing-sm;
   padding: $basic-padding-overall;
 }
+.research__image {
+  display: flex;
+  justify-content: center;
+}
+.research__image img {
+  width: 80%;
+}

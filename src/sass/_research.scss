@@ -30,7 +30,8 @@
 }
 .option {
   font-size: $font-size-sm;
-  padding: 0.5vh;
+  margin: 0.95vh;
+  border-bottom: 0.25px solid $color-research;
 }
 .research__button {
   font-family: 'League Gothic', sans-serif;
@@ -40,7 +41,7 @@
   color: $color-research;
   border: 1vh solid $color-research;
   padding: $basic-padding-overall;
-  margin: $padding-bottom-space;
+  margin: $padding-bottom-space + 5%;
 }
 .research__button {
   text-align: center;

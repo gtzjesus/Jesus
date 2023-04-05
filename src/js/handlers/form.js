@@ -23,8 +23,6 @@ function sendMail() {
       (document.getElementById('name').value = ' '),
         (document.getElementById('email').value = ' '),
         (document.getElementById('message').value = ' ');
-
-      console.log(res);
       return alert('Message Success');
     })
     .catch((error) => console.log(error));

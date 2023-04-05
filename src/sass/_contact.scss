@@ -11,7 +11,7 @@
 .contact {
   font-family: 'League Gothic', sans-serif;
   text-transform: uppercase;
-  height: $calc-height-screen;
+  height: 100%;
 }
 .contact__container {
   padding: 5%;
@@ -72,11 +72,14 @@ form button {
 }
 
 @media (min-width: $bp-small) {
+  .contact {
+    height: 100%;
+  }
   .contact__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1% 7.5%;
+    padding: 10% 7.5%;
   }
   .contact__title {
     font-size: $font-size-lg;
@@ -96,11 +99,14 @@ form button {
   }
 }
 @media (min-width: $bp-medium) {
+  .contact {
+    height: 100%;
+  }
   .contact__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 8%;
+    padding: 10% 7.5%;
   }
   .contact__title {
     font-size: $font-size-lg;
@@ -120,11 +126,14 @@ form button {
   }
 }
 @media (min-width: $bp-large) {
+  .contact {
+    height: 100%;
+  }
   .contact__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 15%;
+    padding: 10% 7.5%;
   }
   .contact__title {
     font-size: $font-size-lg;

@@ -24,5 +24,27 @@
   justify-content: center;
 }
 .research__image img {
-  width: 80%;
+  width: 90%;
+}
+.research__visit {
+}
+.option {
+  font-size: $font-size-sm;
+  padding: 0.5vh;
+}
+.research__button {
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
+  font-size: $font-size-sm + 0.5vh;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-research;
+  border: 1vh solid $color-research;
+  padding: $basic-padding-overall;
+  margin: $padding-bottom-space;
+}
+.research__button {
+  text-align: center;
+}
+.tapper {
+  border-bottom: 1px solid $color-research;
 }

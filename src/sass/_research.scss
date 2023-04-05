@@ -6,7 +6,7 @@
   grid-gap: $grid-gap;
   height: $calc-height-screen;
   color: #ffff;
-  padding: $basic-padding-overall + 0.5vh;
+  padding: $basic-padding-overall + 1.5vh;
   align-items: center;
 }
 .research__introduction {
@@ -48,4 +48,84 @@
 }
 .tapper {
   border-bottom: 1px solid $color-research;
+}
+
+@media (min-width: $bp-small) {
+  .research__container {
+    height: 100%;
+    padding: $basic-padding-overall + 5vh;
+  }
+  .research__introduction {
+    font-size: $font-size-subtitle;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+  }
+  .research__description {
+    font-size: $font-size-m;
+    line-height: $line-height-description;
+    letter-spacing: $letter-spacing-sm;
+    padding: $basic-padding-overall;
+  }
+  .research__image {
+    display: flex;
+    justify-content: center;
+  }
+  .research__image img {
+    width: 100%;
+  }
+  .research__visit {
+  }
+  .option {
+    font-size: $font-size-sm;
+    margin: 0.95vh;
+    border-bottom: 0.25px solid $color-research;
+  }
+  .research__button {
+    font-size: $font-size-sm + 0.5vh;
+    letter-spacing: $letter-spacing-sm;
+    padding: $basic-padding-overall;
+    margin: $padding-bottom-space + 5%;
+  }
+}
+@media (min-width: $bp-medium) {
+  .research__container {
+    padding: $basic-padding-overall + 5vh;
+  }
+  .research__introduction {
+    font-size: $font-size-subtitle + 2.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+  }
+  .research__description {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 75vh;
+    font-size: $font-size-m + 4vh;
+    line-height: $line-height-description - 0.5%;
+    letter-spacing: $letter-spacing-sm -0.5vh;
+    padding: $basic-padding-overall + 5vh;
+  }
+  .research__image {
+    display: flex;
+    justify-content: center;
+  }
+  .research__image img {
+    width: 100%;
+  }
+  .research__visit {
+  }
+  .option {
+    font-size: $font-size-m + 2.5vh;
+    margin: 0.95vh;
+    border-bottom: 0.25px solid $color-research;
+  }
+  .research__button {
+    font-size: $font-size-sm + 2.5vh;
+    letter-spacing: $letter-spacing-sm;
+    padding: $basic-padding-overall;
+    margin: $padding-bottom-space + 5%;
+  }
+  .res {
+    font-size: $font-size-sm + 1.5vh;
+    letter-spacing: $letter-spacing-sm;
+  }
 }

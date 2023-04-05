@@ -3,7 +3,8 @@
   background-color: $color-background;
   align-items: center;
   padding: $basic-padding-overall + 0.5vh;
-  margin: 20% 5%;
+  margin: 20% 1%;
+  display: block;
 }
 
 .github__information {
@@ -16,7 +17,6 @@
 }
 .github__link {
   text-align: center;
-
   font-family: 'League Gothic', sans-serif;
   text-transform: uppercase;
   font-size: $font-size-sm + 0.5vh;
@@ -68,5 +68,19 @@
   }
   .tap {
     border-bottom: 1px solid $color-font-alternative;
+  }
+}
+
+@media (min-width: $bp-medium) {
+  .github__information {
+    font-size: $font-size-subtitle + 2.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+    padding-bottom: $padding-bottom-space;
+  }
+  .github__link {
+    font-size: $font-size-m + 2.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+    letter-spacing: $letter-spacing-sm;
+    margin-bottom: 0;
   }
 }

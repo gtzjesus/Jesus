@@ -25,7 +25,7 @@ class ResearchView {
                 <span class="option">diagrams</span>
                 <span class="option">prototype</span>
                 <span class="option">code</span>
-                <a class="github__link__a" href="https://github.com/gtzjesus?tab=repositories"title="GitHub Repos">
+                <a class="github__link__a" href="https://github.com/gtzjesus/SEA"title="SEA" target="_blank">
                     <div class="research__button">
                         <span><span class="tapper">tap</span> to see all</span>
                     </div>

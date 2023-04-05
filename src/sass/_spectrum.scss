@@ -170,6 +170,10 @@
     padding: $basic-padding-overall + 0.5vh;
     height: fit-content;
   }
+  .spectrum__title {
+    font-size: $font-size-subtitle + 2.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
+  }
   .spectrum__container {
     display: flex;
     flex-direction: row;
@@ -196,6 +200,10 @@
   }
   .spectrum__container {
     grid-gap: $grid-gap-big;
+  }
+  .spectrum__title {
+    font-size: $font-size-subtitle + 4.5vh;
+    letter-spacing: $letter-spacing-sm - 0.25vh;
   }
   .spectrum__description {
     padding: $basic-padding-big-screen-projects;

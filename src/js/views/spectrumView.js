@@ -30,12 +30,12 @@ class SpectrumView {
                   through various troubleshooting processes.
                   </span>
                 <div class="spectrum__link">
-                <a class="spectrum__link__a" href="https://spectrumassist.netlify.app" target="_blank">
+                <a class="spectrum__link__a" href="" target="_blank">
                   <div class="spectrum__link__cont">
                     <span class="spectrum__link__flex">website <img src="${host}" title="Visit Site" /></span>
                   </div>
                 </a>
-                <a class="spectrum__link__a" href="https://github.com/gtzjesus/Spectrum-Assist" target="_blank">
+                <a class="spectrum__link__a" href="" target="_blank">
                   <div class="spectrum__link__cont">
                     <span class="spectrum__link__flex">github <img src="${gh}" title="Visit Repo" /></span>
                   </div>

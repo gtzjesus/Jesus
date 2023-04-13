@@ -165,7 +165,10 @@
 .tools {
   display: flex;
   justify-content: space-between;
-  padding: $basic-padding-overall - 0.5vh;
+  padding-top: $basic-padding-overall - 0.5vh;
+}
+.tool {
+  height: 65%;
 }
 
 @media (min-width: $bp-medium) {

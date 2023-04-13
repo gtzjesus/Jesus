@@ -32,10 +32,10 @@ class PrimroseView {
                 </span>
                 <div class="tools__container">
                     <ul class="tools">
-                        <li><img src="${js}"<li>
-                        <li><img src="${node}"<li>
-                        <li><img src="${express}"<li>
-                        <li><img src="${mongo}"<li>
+                        <li ><img class="tool" src="${js}"<li>
+                        <li><img class="tool" src="${node}"<li>
+                        <li><img class="tool" src="${express}"<li>
+                        <li><img class="tool" src="${mongo}"<li>
 
                     </ul>
                 </div>

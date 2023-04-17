@@ -30,7 +30,7 @@ class SpectrumView {
                   </div>
                   <div class="spectrum__body">
                   <span class="spectrum__desc">
-                  __________a software application whose <span class="lastname__spectrum">mission is to aid</span>  spectrum technicians
+                  __________a web application whose <span class="lastname__spectrum">mission is to aid</span>  spectrum technicians
                   through various troubleshooting processes.
                   </span>
                   <div class="tools__container">

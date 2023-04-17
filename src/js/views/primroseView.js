@@ -28,7 +28,7 @@ class PrimroseView {
             </div>
             <div class="primrose__body">
                 <span class="primrose__desc">
-                __________an e - commerce application that allows clients to purchase trending women's clothing, jewelry, and accessories. shop today.
+                __________an e - commerce application that lets you <span class="lastname__primrose">browse & purchase </span>trending women's clothing and jewelry. shop today!
                 </span>
                 <div class="tools__container">
                     <ul class="tools">

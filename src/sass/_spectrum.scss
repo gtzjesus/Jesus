@@ -89,7 +89,7 @@
     background: url(project-background-mobile.jpg);
     background-size: contain;
     .marginner {
-      margin: 0 auto;
+      margin: 0;
     }
     .card {
       display: grid;
@@ -116,13 +116,11 @@
     font-family: 'League Gothic', sans-serif;
     font-size: $font-size-lg;
     letter-spacing: $letter-spacing-lg;
-
     color: $color-font;
   }
   .spectrum__subtitle {
     display: grid;
-    margin: 0 auto;
-    margin-top: 10rem;
+    margin: 2.5rem auto;
     width: fit-content;
     text-transform: uppercase;
     font-family: 'League Gothic', sans-serif;

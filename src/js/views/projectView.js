@@ -28,7 +28,9 @@ class ProjectView {
             <li><img class="tool" src="${mongo}"<li>
         </ul>
     </div>
-    <span class="spectrum__title">peek my software</span>
+
+    
+    <span class="spectrum__title">peek my software<span class="lastname">tap to visit 📲</span></span>
     <div class="scrolling-wrapper">
         <div class="marginner">
         <div class="card">

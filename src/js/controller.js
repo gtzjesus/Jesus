@@ -1,14 +1,11 @@
 import aboutView from './views/aboutView';
 import codeView from './views/codeView';
-import contactVIew from './views/contactVIew';
 import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
+import projectView from './views/projectView';
 import githubView from './views/githubView';
-import mapView from './views/mapView';
-import spectrumView from './views/spectrumView';
 import footerView from './views/footerView';
 import researchView from './views/researchView';
-import primroseView from './views/primroseView';
 
 //// CONSTANTS THAT WE WILL NEED TO ACCESS FOR OUT APPLICATION
 const hiddenElements = window.document.querySelectorAll('.hidden');
@@ -55,12 +52,9 @@ const init = function () {
   descriptionView.render();
   aboutView.render();
   codeView.render();
-  primroseView.render();
-  spectrumView.render();
-  mapView.render();
+  projectView.render();
   researchView.render();
   githubView.render();
-  contactVIew.render();
   footerView.render();
 };
 init();

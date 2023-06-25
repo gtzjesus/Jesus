@@ -20,17 +20,7 @@ class ResearchView {
             <div class="research__image">
                 <img src="${research}" />
             </div>
-            <div class="research__visit">
-                <span class="option">designs</span>
-                <span class="option">diagrams</span>
-                <span class="option">prototype</span>
-                <span class="option">code</span>
-                <a class="github__link__a" href="https://github.com/gtzjesus/SEA"title="SEA" target="_blank">
-                    <div class="research__button">
-                        <span><span class="tapper">tap</span> to see all</span>
-                    </div>
-                </a>
-            </div>
+
         </div>
     `;
   }

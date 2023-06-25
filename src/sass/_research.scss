@@ -1,3 +1,15 @@
+.research__view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image__container {
+  min-height: calc($calc-height-screen);
+  background: url(sea-research.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .research__container {
   font-family: 'League Gothic', sans-serif;
   display: flex;
@@ -26,8 +38,7 @@
 .research__image img {
   width: 90%;
 }
-.research__visit {
-}
+
 .option {
   font-size: $font-size-sm;
   margin: 0.95vh;
@@ -38,10 +49,11 @@
   text-transform: uppercase;
   font-size: $font-size-sm + 0.5vh;
   letter-spacing: $letter-spacing-sm;
-  color: $color-research;
-  border: 1vh solid $color-research;
+  color: #ffff;
+  border: 5px solid #ffff;
+  background-color: $color-research;
   padding: $basic-padding-overall;
-  margin: $padding-bottom-space + 5%;
+  margin: $padding-bottom-space;
 }
 .research__button {
   text-align: center;
@@ -50,7 +62,14 @@
   border-bottom: 1px solid $color-research;
 }
 
-@media (min-width: $bp-small) {
+@media (max-width: $bp-small) {
+  .research__view {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .image__container {
+    display: none;
+  }
   .research__container {
     height: 100%;
     padding: $basic-padding-overall + 5vh;
@@ -79,11 +98,12 @@
     margin: 0.95vh;
     border-bottom: 0.25px solid $color-research;
   }
+  .research__description a {
+    margin: 10rem;
+  }
   .research__button {
     font-size: $font-size-sm + 0.5vh;
     letter-spacing: $letter-spacing-sm;
-    padding: $basic-padding-overall;
-    margin: $padding-bottom-space + 5%;
   }
 }
 @media (min-width: $bp-medium) {

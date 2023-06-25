@@ -3,7 +3,6 @@ import codeView from './views/codeView';
 import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
 import projectView from './views/projectView';
-import githubView from './views/githubView';
 import footerView from './views/footerView';
 import researchView from './views/researchView';
 
@@ -54,7 +53,6 @@ const init = function () {
   codeView.render();
   projectView.render();
   researchView.render();
-  githubView.render();
   footerView.render();
 };
 init();

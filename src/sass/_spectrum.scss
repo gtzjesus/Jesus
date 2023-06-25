@@ -74,14 +74,14 @@
   padding: 5rem 0;
   color: $color-font;
 }
-
-.tools__container {
+.tools {
   display: flex;
   justify-content: center;
 }
+
 .tools img {
   height: 3.5rem;
-  padding: 2.5rem;
+  padding: 1rem;
 }
 
 @media (max-width: $bp-large) {
@@ -155,12 +155,8 @@
     color: $color-font;
   }
 
-  .tools__container {
-    display: flex;
-    justify-content: center;
-  }
   .tools img {
-    height: 55%;
-    padding: 0.5rem;
+    height: 2.5rem;
+    padding: 1rem;
   }
 }

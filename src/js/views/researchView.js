@@ -9,6 +9,7 @@ class ResearchView {
 
   _generateMarkup() {
     return `
+      <div class="research__view">
         <div class="research__container">
             <div class="research__introduction">
                 <span>in research <span class="res">i've had the privilege to</span>
@@ -16,12 +17,11 @@ class ResearchView {
             </div>
             <div class="research__description">
                 <span>___________collaborate with both, military stakeholders and a team of engineers, to  <span class="research">fully implement</span> a scanning and enumeration software used to identify critical cyber vulnerabilities in military tasks.<span class="lastname"></span></span>
+                <a class="research__button" href="https://github.com/gtzjesus/SEA" target="blank">Learn more about SEA</a>
             </div>
-            <div class="research__image">
-                <img src="${research}" />
-            </div>
-
         </div>
+        <div class="image__container"></div>
+      </div>
     `;
   }
 }

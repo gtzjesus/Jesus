@@ -2,10 +2,6 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  display: flex;
-  justify-content: center;
-  grid-gap: 5rem;
-
   min-height: calc($calc-height-screen);
   background: url(projects-background.jpeg);
   -webkit-background-size: cover;
@@ -20,6 +16,10 @@
     opacity: 0.7;
     transition: 5 ease-in;
     cursor: pointer;
+  }
+  .marginner {
+    display: flex;
+    justify-content: space-eve;
   }
 }
 .spectrum__display img {

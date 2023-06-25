@@ -11,6 +11,7 @@
 
   .card {
     display: inline-block;
+    padding: 0 0.5rem;
   }
   .card:hover {
     opacity: 0.7;
@@ -19,7 +20,7 @@
   }
   .marginner {
     display: flex;
-    justify-content: space-eve;
+    justify-content: space-around;
   }
 }
 .spectrum__display img {

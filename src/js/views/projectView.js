@@ -30,7 +30,7 @@ class ProjectView {
     </div>
 
     
-    <span class="spectrum__title">peek my software<span class="lastname">tap to visit 📲</span></span>
+    <span class="spectrum__title">peek my software<span class="lastname">swipe 👈🏻 & tap 👇🏻</span></span>
     <div class="scrolling-wrapper">
         <div class="marginner">
         <div class="card">

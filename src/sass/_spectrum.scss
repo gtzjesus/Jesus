@@ -82,24 +82,19 @@
 
 @media (max-width: $bp-large) {
   .scrolling-wrapper {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    white-space: nowrap;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: hidden;
     grid-gap: 0;
-
-    min-height: calc($calc-height-screen);
-    background: url(projects-background.jpeg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+    background: url(project-background-mobile.jpeg);
+    .marginner {
+      margin: 0 auto;
+    }
     .card {
       display: grid;
-      margin: 0 auto;
+      justify-content: center;
     }
     .card:hover {
       opacity: 1;
@@ -108,7 +103,8 @@
     }
   }
   .spectrum__display img {
-    margin: 5rem 0 0 0;
+    margin: 1rem 0 0 0;
+    height: 25rem;
   }
   .spectrum__title {
     color: $color-font;

@@ -30,6 +30,7 @@ class ProjectView {
     </div>
     <span class="spectrum__title">peek my software</span>
     <div class="scrolling-wrapper">
+        <div class="marginner">
         <div class="card">
             <a class="spectrum__display" href="https://github.com/gtzjesus/Spectrum-Assist" target="_blank">
                 <span class="spectrum__subtitle assist">spectrum assist</span>
@@ -58,6 +59,7 @@ class ProjectView {
               </span>
             </a>
         </div>
+    </div>
     </div>
     `;
   }

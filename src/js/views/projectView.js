@@ -20,17 +20,15 @@ class ProjectView {
 
   _generateMarkup() {
     return `
+    <span class="spectrum__title">peek my software</span>
     <div class="tools__container">
-        <ul class="tools">
-            <li ><img class="tool" src="${js}"<li>
-            <li><img class="tool" src="${node}"<li>
-            <li><img class="tool" src="${express}"<li>
-            <li><img class="tool" src="${mongo}"<li>
-        </ul>
+    <ul class="tools">
+        <li ><img class="tool" src="${js}"<li>
+        <li><img class="tool" src="${node}"<li>
+        <li><img class="tool" src="${express}"<li>
+        <li><img class="tool" src="${mongo}"<li>
+    </ul>
     </div>
-
-    
-    <span class="spectrum__title">peek my software<span class="lastname">swipe 👈🏻 & tap 👇🏻</span></span>
     <div class="scrolling-wrapper">
         <div class="marginner">
         <div class="card">
@@ -42,15 +40,15 @@ class ProjectView {
                 </span>
             </a>
         </div>
-              <div class="card">
-        <a class="spectrum__display"  href="https://github.com/gtzjesus/Primrose" target="_blank">
-            <span class="spectrum__subtitle prim">primrose</span>
-            <img src="${primrose}" />
-            <span class="spectrum__desc">
-              __________an e-commerce app  <span >used to browse & purchase</span>  women's trending.
-            </span>
-        </a>
-    </div>
+        <div class="card">
+          <a class="spectrum__display"  href="https://github.com/gtzjesus/Primrose" target="_blank">
+              <span class="spectrum__subtitle prim">primrose</span>
+              <img src="${primrose}" />
+              <span class="spectrum__desc">
+                __________an e-commerce app  <span >used to browse & purchase</span>  women's trending.
+              </span>
+          </a>
+        </div>
         <div class="card">
             <span class="spectrum__subtitle come">mapp</span>
             <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
@@ -61,7 +59,7 @@ class ProjectView {
               </span>
             </a>
         </div>
-    </div>
+      </div>
     </div>
     `;
   }

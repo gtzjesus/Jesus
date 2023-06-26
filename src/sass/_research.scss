@@ -32,12 +32,13 @@
 .collab {
   color: $color-collab;
   background-color: #131313;
+  margin: 1rem;
 }
 .research__sea {
   font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
   font-size: $font-size-xl;
-  line-height: 7.5rem;
+  line-height: 105%;
   letter-spacing: $letter-spacing-sm;
   padding: 2.5%;
   color: $color-sea;
@@ -91,7 +92,7 @@
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     font-size: $font-size-xl;
-    line-height: 95%;
+    line-height: 105%;
     letter-spacing: $letter-spacing-sm;
     padding: 2.5%;
     color: $color-sea;

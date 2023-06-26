@@ -15,13 +15,13 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  min-height: calc($calc-height-screen);
   background: url(projects-background.jpeg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   .marginner {
+    margin: 5%;
     display: flex;
     justify-content: space-evenly;
   }
@@ -31,8 +31,8 @@
     cursor: pointer;
   }
   .card img {
-    height: 370px;
-    width: 350px;
+    height: 470px;
+    width: 450px;
   }
 }
 .spectrum__display img {
@@ -89,10 +89,13 @@
     background: url(project-background-mobile.jpg);
     background-size: contain;
     .marginner {
-      display: grid;
-      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      grid-gap: 1rem;
     }
     .card {
+      display: grid;
+      margin: 0 auto;
     }
     .card:hover {
       opacity: 0.7;
@@ -100,8 +103,8 @@
       cursor: pointer;
     }
     .card img {
-      height: 370px;
-      width: 350px;
+      height: 350px;
+      width: 330px;
     }
   }
   .spectrum__display img {

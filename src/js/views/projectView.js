@@ -36,7 +36,7 @@ class ProjectView {
           <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
               <img src="${map}" />
               <span class="spectrum__desc">
-              __________a fitness app that <span >allows <span class="mapp">logging & tracking</span></span>
+              __________a fitness app that <span >allows you <span class="mapp">to log & track</span></span>
               your cardio excercises.
             </span>
           </a>

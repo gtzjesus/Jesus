@@ -65,7 +65,7 @@
   font-size: $font-size-ml + 1vh;
   line-height: $line-height-description;
   letter-spacing: $letter-spacing-sm;
-  padding: 2rem 0;
+  padding: 0rem;
   color: $color-font;
 }
 .tools {
@@ -147,7 +147,6 @@
     font-size: $font-size-ml;
     line-height: $line-height-description;
     letter-spacing: $letter-spacing-sm;
-    padding: 0.5rem 0;
     color: $color-font;
   }
 

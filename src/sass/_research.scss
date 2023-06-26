@@ -57,6 +57,19 @@
   background-size: cover;
   height: fit-content;
 }
+.research__click {
+  display: flex;
+  justify-content: center;
+}
+.research__click__button {
+  color: $color-click;
+  background-color: #131313;
+}
+.research__click__button:hover {
+  opacity: 0.7;
+  transition: 5 ease-in;
+  cursor: pointer;
+}
 
 @media (max-width: $bp-large) {
   .research__container {

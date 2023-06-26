@@ -1,4 +1,4 @@
-.spectrum__title {
+.project__title {
   color: $color-font;
   display: flex;
   flex-direction: column;
@@ -39,10 +39,9 @@
   margin: 2.5rem 0 1rem 0;
 }
 
-.spectrum__subtitle {
+.individual__project__name {
   display: grid;
   margin: 0 auto;
-  margin-top: 5rem;
   width: fit-content;
   text-transform: uppercase;
   font-family: 'League Gothic', sans-serif;
@@ -90,9 +89,10 @@
     background: url(project-background-mobile.jpg);
     background-size: contain;
     .marginner {
-      display: flex;
-      justify-content: space-between;
-      grid-gap: 1rem;
+      display: grid;
+      margin: 0 auto;
+    }
+    .card {
     }
     .card:hover {
       opacity: 0.7;
@@ -107,7 +107,7 @@
   .spectrum__display img {
     margin: 2.5rem 0 1rem 0;
   }
-  .spectrum__title {
+  .project__title {
     color: $color-font;
     margin: 2.5rem;
     display: flex;
@@ -120,9 +120,9 @@
     letter-spacing: $letter-spacing-lg;
     color: $color-font;
   }
-  .spectrum__subtitle {
+  .individual__project__name {
     display: grid;
-    margin: 2.5rem auto;
+    margin: 0rem auto;
     width: fit-content;
     text-transform: uppercase;
     font-family: 'League Gothic', sans-serif;

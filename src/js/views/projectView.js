@@ -20,7 +20,7 @@ class ProjectView {
 
   _generateMarkup() {
     return `
-    <span class="spectrum__title">peek my software</span>
+    <span class="project__title">peek my software</span>
     <div class="tools__container">
     <ul class="tools">
         <li ><img class="tool" src="${js}"<li>
@@ -33,7 +33,7 @@ class ProjectView {
         <div class="marginner">
         <div class="card">
             <a class="spectrum__display" href="https://github.com/gtzjesus/Spectrum-Assist" target="_blank">
-                <span class="spectrum__subtitle assist">spectrum assist</span>
+                <span class="individual__project__name assist">spectrum assist</span>
                 <img src="${spectrum}" />
                 <span class="spectrum__desc">
                   __________a web app whose <span >mission is to aid</span>  spectrum technicians.
@@ -41,7 +41,7 @@ class ProjectView {
             </a>
         </div>
         <div class="card">
-        <span class="spectrum__subtitle come">mapp</span>
+        <span class="individual__project__name come">mapp</span>
         <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
             <img src="${map}" />
             <span class="spectrum__desc">
@@ -52,7 +52,7 @@ class ProjectView {
         </div>
         <div class="card">
           <a class="spectrum__display"  href="https://github.com/gtzjesus/Primrose" target="_blank">
-              <span class="spectrum__subtitle prim">primrose</span>
+              <span class="individual__project__name prim">primrose</span>
               <img src="${primrose}" />
               <span class="spectrum__desc">
                 __________an e-commerce app  <span >used to browse & purchase</span>  women's trending.

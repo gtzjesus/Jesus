@@ -51,6 +51,10 @@
     font-size: $font-size-subtitle + 2.5vh;
     letter-spacing: $letter-spacing-sm - 0.25vh;
   }
+  .firstname {
+    font-size: $font-size-sm + 1.5vh;
+    letter-spacing: $letter-spacing-sm;
+  }
   .name,
   .lastname {
     color: $color-font-alternative;

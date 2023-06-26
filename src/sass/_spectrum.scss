@@ -59,8 +59,8 @@
   color: $color-mapper;
 }
 .spectrum__desc {
-  font-family: 'Bebas Neue', cursive;
   display: grid;
+  font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
   font-size: $font-size-ml + 1vh;
   line-height: $line-height-description;

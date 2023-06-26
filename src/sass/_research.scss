@@ -1,151 +1,77 @@
-.research__view {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.research__container {
+  margin: 10% 0 15% 0;
 }
-.image__container {
-  min-height: calc($calc-height-screen);
-  background: url(sea-research.png);
+.research__title {
+  color: $color-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: 'League Gothic', sans-serif;
+  font-size: $font-size-lg;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-font;
+}
+.sea {
+  color: $color-primrose;
+  background-color: #131313;
+}
+.engineer {
+  color: $color-engineer;
+  background-color: #131313;
+}
+.usa {
+  color: $color-usa;
+  background-color: #131313;
+}
+.critical {
+  color: $color-critical;
+  background-color: #131313;
+}
+.collab {
+  color: $color-collab;
+  background-color: #131313;
+}
+.research__sea {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: $font-size-xl;
+  line-height: 7.5rem;
+  letter-spacing: $letter-spacing-sm;
+  padding: 2.5%;
+  color: $color-sea;
+  opacity: 0.8;
+}
+.research__sea__container {
+  border: 5px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  margin-top: 5%;
+}
+.research__sea {
+  background: url(sea.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.research__container {
-  font-family: 'League Gothic', sans-serif;
-  display: flex;
-  flex-direction: column;
-  text-transform: uppercase;
-  grid-gap: $grid-gap;
-  height: $calc-height-screen;
-  color: #ffff;
-  padding: $basic-padding-overall + 1.5vh;
-  align-items: center;
-}
-.research__introduction {
-  font-size: $font-size-subtitle;
-  letter-spacing: $letter-spacing-sm - 0.25vh;
-}
-.research__description {
-  font-size: $font-size-m;
-  line-height: $line-height-description + 10%;
-  letter-spacing: $letter-spacing-sm;
-  padding: $basic-padding-overall;
-}
-.research__image {
-  display: flex;
-  justify-content: center;
-}
-.research__image img {
-  width: 90%;
+  height: fit-content;
 }
 
-.option {
-  font-size: $font-size-sm;
-  margin: 0.95vh;
-  border-bottom: 0.25px solid $color-research;
-}
-.research__button {
-  font-family: 'League Gothic', sans-serif;
-  text-transform: uppercase;
-  font-size: $font-size-sm + 0.5vh;
-  letter-spacing: $letter-spacing-sm;
-  color: #ffff;
-  border: 5px solid #ffff;
-  background-color: $color-research;
-  padding: $basic-padding-overall;
-  margin: $padding-bottom-space;
-}
-.research__button {
-  text-align: center;
-}
-.tapper {
-  border-bottom: 1px solid $color-research;
-}
-
-@media (max-width: $bp-small) {
-  .research__view {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .image__container {
-    display: none;
-  }
+@media (max-width: $bp-large) {
   .research__container {
-    height: 100%;
-    padding: $basic-padding-overall + 5vh;
+    margin: 15% 5%;
   }
-  .research__introduction {
-    font-size: $font-size-subtitle;
-    letter-spacing: $letter-spacing-sm - 0.25vh;
-  }
-  .research__description {
-    font-size: $font-size-m;
-    line-height: $line-height-description;
-    letter-spacing: $letter-spacing-sm;
-    padding: $basic-padding-overall;
-  }
-  .research__image {
+  .research__title {
+    color: $color-font;
     display: flex;
-    justify-content: center;
-  }
-  .research__image img {
-    width: 100%;
-  }
-  .research__visit {
-  }
-  .option {
-    font-size: $font-size-sm;
-    margin: 0.95vh;
-    border-bottom: 0.25px solid $color-research;
-  }
-  .research__description a {
-    margin: 10rem;
-  }
-  .research__button {
-    font-size: $font-size-sm + 0.5vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'League Gothic', sans-serif;
+    font-size: $font-size-lg;
     letter-spacing: $letter-spacing-sm;
-  }
-}
-@media (min-width: $bp-medium) {
-  .research__container {
-    padding: $basic-padding-overall + 5vh;
-  }
-  .research__introduction {
-    font-size: $font-size-subtitle + 2.5vh;
-    letter-spacing: $letter-spacing-sm - 0.25vh;
-  }
-  .research__description {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    width: 75vh;
-    font-size: $font-size-m + 4vh;
-    line-height: $line-height-description - 0.5%;
-    letter-spacing: $letter-spacing-sm -0.5vh;
-    padding: $basic-padding-overall + 5vh;
-  }
-  .research__image {
-    display: flex;
-    justify-content: center;
-  }
-  .research__image img {
-    width: 100%;
-  }
-  .research__visit {
-  }
-  .option {
-    font-size: $font-size-m + 2.5vh;
-    margin: 0.95vh;
-    border-bottom: 0.25px solid $color-research;
-  }
-  .research__button {
-    font-size: $font-size-sm + 2.5vh;
-    letter-spacing: $letter-spacing-sm;
-    padding: $basic-padding-overall;
-    margin: $padding-bottom-space + 5%;
-  }
-  .res {
-    font-size: $font-size-sm + 1.5vh;
-    letter-spacing: $letter-spacing-sm;
+    color: $color-font;
   }
 }

@@ -87,4 +87,14 @@
     letter-spacing: $letter-spacing-sm;
     color: $color-font;
   }
+  .research__sea {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: $font-size-xl;
+    line-height: 6rem;
+    letter-spacing: $letter-spacing-sm;
+    padding: 2.5%;
+    color: $color-sea;
+    opacity: 0.8;
+  }
 }

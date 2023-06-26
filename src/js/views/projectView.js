@@ -31,31 +31,32 @@ class ProjectView {
     </div>
     <div class="scrolling-wrapper">
         <div class="marginner">
+        <div class="card">
+          <span class="individual__project__name come">mapp</span>
+          <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
+              <img src="${map}" />
+              <span class="spectrum__desc">
+              __________a fitness app that <span >allows <span class="mapp">logging & tracking</span></span>
+              your cardio excercises.
+            </span>
+          </a>
+        </div>
           <div class="card">
           <a class="spectrum__display"  href="https://github.com/gtzjesus/Primrose" target="_blank">
               <span class="individual__project__name prim">primrose</span>
               <img src="${primrose}" />
               <span class="spectrum__desc">
-                __________an e-commerce app  <span >used to browse & purchase</span>  women's trending.
+                __________an e-commerce web  <span >used to <span class="prim">browse & purchase</span></span>  women's trending.
               </span>
           </a>
         </div>
-        <div class="card">
-        <span class="individual__project__name come">mapp</span>
-        <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
-            <img src="${map}" />
-            <span class="spectrum__desc">
-            __________a fitness app <span >allows logging & tracking</span>
-            cardio excercises.
-          </span>
-        </a>
-        </div>
+
         <div class="card">
           <a class="spectrum__display" href="https://github.com/gtzjesus/Spectrum-Assist" target="_blank">
               <span class="individual__project__name assist">spectrum assist</span>
               <img src="${spectrum}" />
               <span class="spectrum__desc">
-                __________a web app whose <span >mission is to aid</span>  spectrum technicians.
+                __________a web app whose <span ><span class="assist">mission is to aid</span> with a</span>  copilot for technicians.
               </span>
           </a>
         </div>

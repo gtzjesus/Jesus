@@ -50,15 +50,13 @@
 }
 .assist {
   color: $color-spectrum;
-  border-bottom: 5px solid $color-spectrum;
 }
 .prim {
   color: $color-primrose;
-  border-bottom: 5px solid $color-primrose;
 }
-.come {
+.come,
+.mapp {
   color: $color-mapper;
-  border-bottom: 5px solid $color-mapper;
 }
 .spectrum__desc {
   font-family: 'Bebas Neue', cursive;
@@ -67,7 +65,7 @@
   font-size: $font-size-ml + 1vh;
   line-height: $line-height-description;
   letter-spacing: $letter-spacing-sm;
-  padding: 5rem 0;
+  padding: 2rem 0;
   color: $color-font;
 }
 .tools {
@@ -103,8 +101,8 @@
       cursor: pointer;
     }
     .card img {
-      height: 350px;
-      width: 330px;
+      height: 370px;
+      width: 350px;
     }
   }
   .spectrum__display img {
@@ -134,15 +132,12 @@
   }
   .assist {
     color: $color-spectrum;
-    border-bottom: 5px solid $color-spectrum;
   }
   .prim {
     color: $color-primrose;
-    border-bottom: 5px solid $color-primrose;
   }
   .come {
     color: $color-mapper;
-    border-bottom: 5px solid $color-mapper;
   }
   .spectrum__desc {
     font-family: 'Bebas Neue', cursive;
@@ -152,7 +147,7 @@
     font-size: $font-size-ml;
     line-height: $line-height-description;
     letter-spacing: $letter-spacing-sm;
-    padding: 2.5rem 0;
+    padding: 0.5rem 0;
     color: $color-font;
   }
 

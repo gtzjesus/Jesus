@@ -41,6 +41,16 @@ class ProjectView {
             </a>
         </div>
         <div class="card">
+        <span class="spectrum__subtitle come">mapp</span>
+        <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
+            <img src="${map}" />
+            <span class="spectrum__desc">
+            __________a fitness app <span >allows logging & tracking</span>
+            cardio excercises.
+          </span>
+        </a>
+        </div>
+        <div class="card">
           <a class="spectrum__display"  href="https://github.com/gtzjesus/Primrose" target="_blank">
               <span class="spectrum__subtitle prim">primrose</span>
               <img src="${primrose}" />
@@ -48,16 +58,6 @@ class ProjectView {
                 __________an e-commerce app  <span >used to browse & purchase</span>  women's trending.
               </span>
           </a>
-        </div>
-        <div class="card">
-            <span class="spectrum__subtitle come">mapp</span>
-            <a class="spectrum__display"  href="https://github.com/gtzjesus/" target="_blank">
-                <img src="${map}" />
-                <span class="spectrum__desc">
-                __________a fitness app <span >allows logging & tracking</span>
-                cardio excercises.
-              </span>
-            </a>
         </div>
       </div>
     </div>

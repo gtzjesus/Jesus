@@ -98,6 +98,9 @@
       display: grid;
       justify-content: center;
     }
+    .card img {
+      height: 40%;
+    }
     .card:hover {
       opacity: 1;
       transition: 5 ease-in;

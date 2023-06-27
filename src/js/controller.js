@@ -4,6 +4,7 @@ import contentView from './views/contentView';
 import descriptionView from './views/descriptionView';
 import projectView from './views/projectView';
 import researchView from './views/researchView';
+import githubView from './views/githubView';
 import contactView from './views/contactView';
 import footerView from './views/footerView';
 //// CONSTANTS THAT WE WILL NEED TO ACCESS FOR OUT APPLICATION
@@ -53,6 +54,7 @@ const init = function () {
   codeView.render();
   projectView.render();
   researchView.render();
+  githubView.render();
   contactView.render();
   footerView.render();
 };

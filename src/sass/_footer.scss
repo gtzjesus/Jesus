@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
 
 .footer {
   font-family: 'League Gothic', sans-serif;
@@ -20,24 +21,30 @@
   margin-bottom: 1rem;
 }
 .quote {
-  font-family: 'Amatic SC', cursive;
-  letter-spacing: -0.2rem;
+  font-family: 'Moirai One', cursive;
+  color: $color-primrose;
+  letter-spacing: 0.25rem;
   font-size: $font-size-m + 0.5vh;
   text-transform: uppercase;
 }
-.links__container {
+.signature {
+  font-size: $font-size-ml;
+  text-transform: uppercase;
 }
 .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .link {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .copyright {
-  font-size: $font-size-xs;
+  font-family: 'Slackside One', cursive;
 }
-.copyright span {
+.copyright .c {
+  font-size: $font-size-ml;
   color: $color-font-alternative;
+}
+.copyright .myself {
+  font-size: $font-size-sm;
 }

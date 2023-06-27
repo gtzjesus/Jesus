@@ -19,7 +19,7 @@ class FooterView {
                     <img class="logo__footer" src="${footer__logo}" />
                 </div>
                 <div class="quote">
-                    <span>"impossible is nothing"</span>
+                    <span>hello world</span>
                 </div>
                 <div class="links__container">
                     <ul class="links">
@@ -30,7 +30,7 @@ class FooterView {
                     </ul>
                 </div>
                 <div class="copyright">
-                    <p>handcrafted by me <span>&#169;</span> jesus gutierrez</p>
+                    <p class="signature"><span class="c">&#169;</span> <span class="myself">jesus gutierrez</span></p>
                 </div>
             </div>
     `;

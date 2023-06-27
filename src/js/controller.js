@@ -5,6 +5,7 @@ import descriptionView from './views/descriptionView';
 import projectView from './views/projectView';
 import researchView from './views/researchView';
 import contactView from './views/contactView';
+import footerView from './views/footerView';
 //// CONSTANTS THAT WE WILL NEED TO ACCESS FOR OUT APPLICATION
 const hiddenElements = window.document.querySelectorAll('.hidden');
 const hiddenDelayElements = window.document.querySelectorAll('.hidden__delay');
@@ -53,5 +54,6 @@ const init = function () {
   projectView.render();
   researchView.render();
   contactView.render();
+  footerView.render();
 };
 init();
